@@ -1,0 +1,4 @@
+source ~/.vim/vimrc/lab.vim
+source ~/.vim/vimrc/vundle.vim
+source ~/.vim/vimrc/config.vim
+source ~/.vim/vimrc/local.vim
