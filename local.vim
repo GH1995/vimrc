@@ -99,6 +99,26 @@ func! CompileRunGcc()
     endif
 endfunc
 
+
+" " 定义函数AutoSetFileHead，自动插入文件头
+" autocmd BufNewFile *.sh,*.py exec ":call AutoSetFileHead()"
+" function! AutoSetFileHead()
+    " "如果文件类型为.sh文件
+    " if &filetype == 'sh'
+        " call setline(1, "\#!/bin/bash")
+    " endif
+
+    " "如果文件类型为python
+    " if &filetype == 'python'
+        " call setline(1, "\#!/usr/bin/env python")
+        " call append(1, "\# coding: utf-8")
+    " endif
+
+    " normal G
+    " normal o
+    " normal o
+" endfunc
+
 " 保存文件
 nnoremap <leader>= :w<cr>
 
@@ -144,4 +164,4 @@ inoremap <c-k> <esc><c-w>j<c-y><c-w>ka
 autocmd FileType python : set foldmethod=syntax
 autocmd FileType python :set smartindent
 
-command W w !sudo tee % > /dev/null
+" command W w !sudo tee % > /dev/null

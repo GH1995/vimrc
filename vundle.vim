@@ -92,6 +92,9 @@ Plugin 'rhysd/vim-clang-format'
 Plugin 'vim-scripts/L9'
 
 " Airline: 小巧美观的状态栏
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
+" ~/.vim/vimrc/config/vim-airline.vim
 Plugin 'Lokaltog/vim-powerline'
 set laststatus=2
 
