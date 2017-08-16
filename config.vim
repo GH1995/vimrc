@@ -15,3 +15,5 @@ source ~/.vim/vimrc/config/vim-quickrun.vim
 source ~/.vim/vimrc/config/youcompleteme.vim
 source ~/.vim/vimrc/config/vimtex.vim
 source ~/.vim/vimrc/config/ultisnips.vim
+source ~/.vim/vimrc/config/goyo.vim
+source ~/.vim/vimrc/config/undotree.vim

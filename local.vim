@@ -134,7 +134,7 @@ set background=dark
 " colorscheme desert
 
 " gf 打开文件
-" nnoremap gf :e <cfile><CR>
+nnoremap gf :e <cfile><CR>
 
 " 使vim识别md文件
 au BufRead, BufNewFile *.md set filetype=markdown

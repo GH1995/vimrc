@@ -83,6 +83,15 @@ Plugin 'vim-scripts/matchit.zip'
 Plugin 'kana/vim-operator-user'
 Plugin 'rhysd/vim-clang-format'
 
+" 智能注释
+Plugin 'scrooloose/nerdcommenter'
+" ~/.vim/vimrc/config/nerdcommenter.vim
+
+" LaTeX
+Plugin 'lervag/vimtex'
+" ~/.vim/vimrc/config/vimtex.vim
+
+
 " }}}
 
 
@@ -102,17 +111,11 @@ set laststatus=2
 Plugin 'mbbill/fencview'
 " ~/.vim/vimrc/config/
 
-" 智能注释
-Plugin 'scrooloose/nerdcommenter'
-" ~/.vim/vimrc/config/nerdcommenter.vim
 
 " 配色
 Plugin 'altercation/vim-colors-solarized'
 " ~/.vim/vimrc/config/
 
-" LaTeX
-Plugin 'lervag/vimtex'
-" ~/.vim/vimrc/config/vimtex.vim
 " Plugin 'vim-latex/vim-latex'
 " ~/.vim/vimrc/config/
 
@@ -123,7 +126,6 @@ Plugin 'thinca/vim-quickrun'
 " 括号高亮
 Plugin 'kien/rainbow_parentheses.vim'
 " ~/.vim/vimrc/config/rainbow-parentheses.vim
-
 
 " 快速对齐
 Plugin 'junegunn/vim-easy-align'
@@ -138,6 +140,17 @@ Plugin 'tpope/vim-fugitive'
 
 " 中文排版
 Plugin 'hotoo/pangu.vim'
+
+" 无打扰模式
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
+" ~/.vim/vimrc/config/goyo.vim
+
+Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'kshenoy/vim-signature'
+
+Plugin 'mbbill/undotree'
+" ~/.vim/vimrc/config/undotree.vim
 
 " }}}
 
