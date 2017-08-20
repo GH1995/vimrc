@@ -17,3 +17,4 @@ source ~/.vim/vimrc/config/vimtex.vim
 source ~/.vim/vimrc/config/ultisnips.vim
 source ~/.vim/vimrc/config/goyo.vim
 source ~/.vim/vimrc/config/undotree.vim
+" source ~/.vim/vimrc/config/vim-colors-solarized.vim

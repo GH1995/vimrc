@@ -13,7 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
-" ~/.vim/vimrc/config/YouCompleteMe.vim
+" ~/.vim/vimrc/config/youcompleteme.vim
 
 " ultisnips
 Plugin 'SirVer/ultisnips'
@@ -91,7 +91,6 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'lervag/vimtex'
 " ~/.vim/vimrc/config/vimtex.vim
 
-
 " }}}
 
 
@@ -111,13 +110,9 @@ set laststatus=2
 Plugin 'mbbill/fencview'
 " ~/.vim/vimrc/config/
 
-
 " 配色
-Plugin 'altercation/vim-colors-solarized'
-" ~/.vim/vimrc/config/
-
-" Plugin 'vim-latex/vim-latex'
-" ~/.vim/vimrc/config/
+" Plugin 'altercation/vim-colors-solarized'
+" ~/.vim/vimrc/config/vim-colors-solarized.vim
 
 " 快速执行
 Plugin 'thinca/vim-quickrun'
@@ -141,16 +136,22 @@ Plugin 'tpope/vim-fugitive'
 " 中文排版
 Plugin 'hotoo/pangu.vim'
 
-" 无打扰模式
-Plugin 'junegunn/goyo.vim'
-Plugin 'junegunn/limelight.vim'
-" ~/.vim/vimrc/config/goyo.vim
-
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'kshenoy/vim-signature'
 
 Plugin 'mbbill/undotree'
 " ~/.vim/vimrc/config/undotree.vim
+
+" 中文文档
+Plugin 'vimcn/vimcdoc'
+
+Plugin 'Chiel92/vim-autoformat'
+" ~/.vim/vimrc/config/vim-autoformat.vim
+
+" Plugin 'vim-scripts/YankRing.vim'
+Plugin 'fs111/pydoc.vim'
+
+Plugin 'ervandew/supertab'
 
 " }}}
 

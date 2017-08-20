@@ -1,17 +1,12 @@
 " 打开语法高亮
-syntax on
-
-" indent and tab
-set smartindent
-set smarttab
+syntax enable
+set autochdir
+set clipboard=unnamed
+set hidden
 
 " 用空格键替换制表符
 set expandtab
-
-" 制表符占4个空格
 set tabstop=4
-
-" 默认缩进4个空格大小
 set shiftwidth=4
 
 " 增量式搜索 and 高亮搜索
@@ -22,22 +17,8 @@ set hlsearch
 set number
 
 " encoding
-set autochdir
 set encoding=utf-8
-
-" 有时中文会显示乱码，用一下几条命令解决
-let &termencoding=&encoding
-"set fileencodings=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
-" set fileencodings=utf-8,gbk
-
-" 很多插件都会要求的配置检测文件类型
-filetype on
-filetype plugin on
-filetype indent on
-
-" 共享系统剪贴板
-set clipboard=unnamed
 
 " 命令行补全以增强模式运行
 set wildmenu
@@ -49,75 +30,16 @@ nnoremap k gk
 
 " 解决ESC问题
 inoremap jk <esc>
-inoremap kj <esc>
 
-" 设置缓冲区
-set hidden
-
-" 5秒自动保存一次
-let autosave=5
-
-" 自动保存
-autocmd InsertLeave * write
+let autosave=5 " 5秒自动保存一次
 
 " 设定新窗口位置
 set splitright
 set splitbelow
 
 " 折叠
-set foldmethod=indent
-set foldlevel=99
-
-" 折叠
 nnoremap <space> za
 vnoremap <space> zf
-
-nnoremap <F5> :call CompileRunGcc()<CR>
-func! CompileRunGcc()
-    exec "w"
-    if &filetype == 'c'
-        exec "!g++ % ‐o %<"
-        exec "!time ./%<"
-    elseif &filetype == 'cpp'
-        exec "!g++ % ‐o %<"
-        exec "!time ./%<"
-    elseif &filetype == 'java'
-        exec "!javac %"
-        exec "!time java %<"
-    elseif &filetype == 'sh'
-        :!time bash %
-    elseif &filetype == 'python'
-        exec "!time python3 %"
-    elseif &filetype == 'html'
-        exec "!firefox % &"
-    elseif &filetype == 'go'
-        " exec "!go build %<"
-        exec "!time go run %"
-    elseif &filetype == 'mkd'
-        exec "!~/.vim/markdown.pl % > %.html &"
-        exec "!firefox %.html &"
-    endif
-endfunc
-
-
-" " 定义函数AutoSetFileHead，自动插入文件头
-" autocmd BufNewFile *.sh,*.py exec ":call AutoSetFileHead()"
-" function! AutoSetFileHead()
-    " "如果文件类型为.sh文件
-    " if &filetype == 'sh'
-        " call setline(1, "\#!/bin/bash")
-    " endif
-
-    " "如果文件类型为python
-    " if &filetype == 'python'
-        " call setline(1, "\#!/usr/bin/env python")
-        " call append(1, "\# coding: utf-8")
-    " endif
-
-    " normal G
-    " normal o
-    " normal o
-" endfunc
 
 " 保存文件
 nnoremap <leader>= :w<cr>
@@ -128,16 +50,8 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 " 设置终端色彩
 set t_Co=256
 
-" Solarized config
-set background=dark
-" colorscheme solarized
-" colorscheme desert
-
 " gf 打开文件
-nnoremap gf :e <cfile><CR>
-
-" 使vim识别md文件
-au BufRead, BufNewFile *.md set filetype=markdown
+" nnoremap gf :e <cfile><cr>
 
 " 解决搜索后的高亮问题
 nnoremap N :nohl<cr>
@@ -160,8 +74,75 @@ nnoremap <c-j> <c-w>j<c-e><c-w>k
 nnoremap <c-k> <c-w>j<c-y><c-w>k
 inoremap <c-j> <esc><c-w>j<c-e><c-w>ka
 inoremap <c-k> <esc><c-w>j<c-y><c-w>ka
+nnoremap <c-w>o <c-w>w
+nnoremap <c-w><c-o> <c-w>w
 
-autocmd FileType python : set foldmethod=syntax
-autocmd FileType python :set smartindent
+" autocmd FileType python :set foldmethod=syntax
+" autocmd FileType python :set smartindent
 
-" command W w !sudo tee % > /dev/null
+set history=500
+filetype on
+filetype plugin on
+filetype indent on
+
+command! W w !sudo tee % > /dev/null
+
+set wildmenu
+set autoread
+
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+
+if has("win16") || has("win32")
+    set wildignore+=.git\*,.hg\*,.svn\*
+else
+    set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.DS_Store
+endif
+
+" A buffer becomes hidden when it is abandoned
+set hidden
+
+" Configure backspace so it acts as it should act
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+
+" When searching try to be smart about cases
+set smartcase
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw
+
+" For regular expressions turn magic on
+set magic
+
+" Show matching brackets when text indicator is over them
+set showmatch
+" How many tenths of a second to blink when matching brackets
+set mat=2
+
+" Enable 256 colors palette in Gnome Terminal
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
+" Set extra options when running in GUI mode
+if has("gui_running")
+    set guioptions-=T
+    set guioptions-=e
+    set t_Co=256
+    set guitablabel=%M\ %t
+endif
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+
+set background=dark
