@@ -146,3 +146,4 @@ set si "Smart indent
 set wrap "Wrap lines
 
 set background=dark
+set mouse=a
