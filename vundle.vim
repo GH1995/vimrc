@@ -146,6 +146,11 @@ Plugin 'fs111/pydoc.vim'
 
 Plugin 'ervandew/supertab'
 
+" markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+" ~/.vim/vimrc/config/vim-markdown.vim
+
 " }}}
 
 
