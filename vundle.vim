@@ -22,7 +22,6 @@ Plugin 'honza/vim-snippets'
 
 " 目录树
 Plugin 'scrooloose/nerdtree'
-" ~/.vim/vimrc/config/
 
 " CtrlP
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -30,11 +29,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 
 " surround
 Plugin 'tpope/vim-surround'
-" ~/.vim/vimrc/config/
 
 " vim-repeat
 Plugin 'tpope/vim-repeat'
-" ~/.vim/vimrc/config/
 
 " 区域选中
 Plugin 'terryma/vim-expand-region'
@@ -46,23 +43,19 @@ Plugin 'w0rp/ale'
 
 " 括号补全
 Plugin 'Raimondi/delimitMate'
-" ~/.vim/vimrc/config/
 
 " 删除多余的空格
 Plugin 'bronson/vim-trailing-whitespace'
-" ~/.vim/vimrc/config/
 
 " 缩进提示线
 Plugin 'Yggdroot/indentLine'
-" ~/.vim/vimrc/config/
 
 " 自动格式化python
 Plugin 'tell-k/vim-autopep8'
-" ~/.vim/vimrc/config/
 
 " 高亮当前行
 Plugin 'miyakogi/conoline.vim'
-" ~/.vim/vimrc/config/
+" ~/.vim/vimrc/config/conoline.vim
 
 " 折叠
 Plugin 'tmhedberg/SimpylFold'
@@ -103,12 +96,12 @@ Plugin 'vim-scripts/L9'
 " Plugin 'vim-airline/vim-airline'
 " Plugin 'vim-airline/vim-airline-themes'
 " ~/.vim/vimrc/config/vim-airline.vim
+
 Plugin 'Lokaltog/vim-powerline'
 set laststatus=2
 
 " 文件编码
 Plugin 'mbbill/fencview'
-" ~/.vim/vimrc/config/
 
 " 配色
 " Plugin 'altercation/vim-colors-solarized'

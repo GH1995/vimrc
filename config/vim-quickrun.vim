@@ -4,4 +4,4 @@
 " \   },
 " \}
 let g:quickrun_no_default_key_mappings = 1
-nnoremap <Leader>r <Plug>(quickrun)
+nnoremap <Leader>qr <Plug>(quickrun)

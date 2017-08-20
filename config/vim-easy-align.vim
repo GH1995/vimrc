@@ -1,2 +1,2 @@
-vmap <Leader>a <Plug>(EasyAlign)
-nmap <Leader>a <Plug>(EasyAlign)
+vmap <Leader>ea <Plug>(EasyAlign)
+nmap <Leader>ea <Plug>(EasyAlign)
