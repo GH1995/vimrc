@@ -1,6 +1,6 @@
-# You have to know
+# DON'T PANIC
 
-**nothing**
+You have to know **nothing**
 
 # How to install
 
@@ -23,18 +23,20 @@ rm -rf ~/.vim ~/.vimrc
 
 # How to use
 
+My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
+
 | key          | use      |
-|-------------:|:---------|
+|:------------:|:---------|
 | `<leader>ut` | UndoTree |
 
 ## Markdown
 
 | key                           | use                                               |
-|------------------------------:|:--------------------------------------------------|
+|:-----------------------------:|:--------------------------------------------------|
 | `<leader>tf`                  | format table                                      |
 | `:toc`                        | open the toc                                      |
 | `<leader>hi` and `<leader>hd` | increase and decrease header(cursor on the table) |
 
-# end
+# End
 
 **Good night**
