@@ -52,8 +52,8 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 | `<leader>tb`     | TagBartoggle     |
 | `<leader>tm`     | TableModeltoggle |
 | `:FixWhitespace` | FixWhitespace    |
-| `<leader>cc`     | 加注释           |
-| `<leader>cu`     | 解开注释         |
+| `<leader>cc`     | add comments     |
+| `<leader>cu`     | delete comments  |
 
 ## YouCompleteMe
 
@@ -92,7 +92,7 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 |:------:|:-----------|
 | `<F5>` | run python |
 
-## $\LaTeX$
+## LaTeX
 | key   | use      |
 |:-----:|:---------|
 | `\ll` | compile  |
