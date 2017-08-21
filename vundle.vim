@@ -22,6 +22,7 @@ Plugin 'honza/vim-snippets'
 
 " 目录树
 Plugin 'scrooloose/nerdtree'
+" ~/.vim/vimrc/config/nerdtree.vim
 
 " CtrlP
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -49,9 +50,6 @@ Plugin 'bronson/vim-trailing-whitespace'
 
 " 缩进提示线
 Plugin 'Yggdroot/indentLine'
-
-" 自动格式化python
-Plugin 'tell-k/vim-autopep8'
 
 " 高亮当前行
 Plugin 'miyakogi/conoline.vim'
@@ -130,6 +128,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'hotoo/pangu.vim'
 
 Plugin 'dhruvasagar/vim-table-mode'
+" ~/.vim/vimrc/config/vim-table-mode.vim
 Plugin 'kshenoy/vim-signature'
 
 Plugin 'mbbill/undotree'
@@ -150,6 +149,15 @@ Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " ~/.vim/vimrc/config/vim-markdown.vim
+
+" 中文文档
+Plugin 'vimcn/taglist.vim.cnx'
+Plugin 'vimcn/fugitive.cnx'
+Plugin 'vimcn/NERD_tree.vim.cnx'
+Plugin 'vimcn/ctrlp.cnx'
+Plugin 'vimcn/matchit.vim.cnx'
+Plugin 'vimcn/NERD_commenter.cnx'
+Plugin 'vimcn/syntastic.cnx'
 
 " }}}
 
