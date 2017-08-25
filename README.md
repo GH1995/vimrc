@@ -86,7 +86,7 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 | `:toc`                        | open the toc                       |
 | `<leader>hi` and `<leader>hd` | increase and decrease header       |
 
-## python
+## Python
 
 | key    | use        |
 |:------:|:-----------|
@@ -98,6 +98,17 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 | `\ll` | compile  |
 | `\lv` | view pdf |
 | `\lc` | clean    |
+
+## ale
+
+|      key      | use          |
+|:-------------:|:-------------|
+| `<leader>ale` | syntax check |
+
+## ctrlp
+| key   | use              |
+|:-----:|:-----------------|
+| <c-p> | show file buffer |
 
 # End
 

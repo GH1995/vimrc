@@ -5,8 +5,6 @@ filetype off     " 必须
 set rtp+=~/.vim/bundle/Vundle.vim
 set rtp+=~/.vim
 call vundle#begin()
-
-" 让vundle管理插件版本,必须
 Plugin 'VundleVim/Vundle.vim'
 
 " 稳定的 {{{
@@ -188,4 +186,4 @@ Plugin 'vimcn/syntastic.cnx'
 call vundle#end()" 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
 " 忽视插件改变缩进,可以使用以下替代:
-" filetype plugin on
+filetype plugin on

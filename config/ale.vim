@@ -1,8 +1,10 @@
 let g:ale_lint_on_save = 0
 let g:ale_lint_on_enter = 0
 
-nmap <silent> z[ <Plug>(ale_previous_wrap)
-nmap <silent> z] <Plug>(ale_next_wrap)
+nnoremap <silent> z[ <Plug>(ale_previous_wrap)
+nnoremap <silent> z] <Plug>(ale_next_wrap)
+
+nnoremap <leader>ale :ALELint<cr>
 
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
