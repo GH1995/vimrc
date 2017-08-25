@@ -106,9 +106,9 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 | `<leader>ale` | syntax check |
 
 ## ctrlp
-| key   | use              |
-|:-----:|:-----------------|
-| <c-p> | show file buffer |
+| key     | use              |
+|:-------:|:-----------------|
+| `<c-p>` | show file buffer |
 
 # End
 
