@@ -89,11 +89,11 @@ Plugin 'lervag/vimtex'
 Plugin 'vim-scripts/L9'
 
 " Airline: 小巧美观的状态栏
-" Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " ~/.vim/vimrc/config/vim-airline.vim
 
-Plugin 'Lokaltog/vim-powerline'
+" Plugin 'Lokaltog/vim-powerline'
 set laststatus=2
 
 " 文件编码
