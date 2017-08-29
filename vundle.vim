@@ -147,6 +147,9 @@ Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " ~/.vim/vimrc/config/vim-markdown.vim
+" 画图
+Plugin 'vim-scripts/winmanager'
+
 
 " 中文文档
 Plugin 'vimcn/taglist.vim.cnx'
@@ -184,6 +187,5 @@ Plugin 'vimcn/syntastic.cnx'
 " }}}
 
 call vundle#end()" 必须
-filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
-" 忽视插件改变缩进,可以使用以下替代:
-filetype plugin on
+filetype plugin indent on       " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
+filetype plugin on              " 忽视插件改变缩进,可以使用以下替代:

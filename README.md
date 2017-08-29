@@ -2,9 +2,11 @@
 
 You have to know **nothing**
 
-# How to install
+# install and uninstall
 
-```
+## How to install
+
+```shell
 #!/bin/bash
 
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
@@ -12,15 +14,16 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ln ~/.vim/vimrc/vimrc_real ~/.vimrc
 
-vim +PluginInstall +qall && echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
+vim +PluginInstall +qall
 
 cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
 ./install.py
 
+ echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
 
-# How to uninstall
-```
+## How to uninstall
+```shell
 rm -rf ~/.vim ~/.vimrc
 ```
 
