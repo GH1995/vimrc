@@ -80,7 +80,19 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'lervag/vimtex'
 " ~/.vim/vimrc/config/vimtex.vim
 
+" 中文文档
+Plugin 'vimcn/taglist.vim.cnx'
+Plugin 'vimcn/fugitive.cnx'
+Plugin 'vimcn/NERD_tree.vim.cnx'
+Plugin 'vimcn/ctrlp.cnx'
+Plugin 'vimcn/matchit.vim.cnx'
+Plugin 'vimcn/NERD_commenter.cnx'
+Plugin 'vimcn/syntastic.cnx'
+
 " }}}
+
+
+"========。。。。。===******===00000=
 
 
 " 测试中的插件 {{{
@@ -88,7 +100,7 @@ Plugin 'lervag/vimtex'
 " lib
 Plugin 'vim-scripts/L9'
 
-" Airline: 小巧美观的状态栏
+" Airline 状态栏
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " ~/.vim/vimrc/config/vim-airline.vim
@@ -127,7 +139,10 @@ Plugin 'hotoo/pangu.vim'
 
 Plugin 'dhruvasagar/vim-table-mode'
 " ~/.vim/vimrc/config/vim-table-mode.vim
+
+" marker
 Plugin 'kshenoy/vim-signature'
+" ~/.vim/vimrc/config/vim-signature.vim
 
 Plugin 'mbbill/undotree'
 " ~/.vim/vimrc/config/undotree.vim
@@ -147,21 +162,20 @@ Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " ~/.vim/vimrc/config/vim-markdown.vim
+
 " 画图
 Plugin 'vim-scripts/winmanager'
 
+" 快速的写注释
+Plugin 'vim-scripts/DoxygenToolkit.vim'
+" ~/.vim/vimrc/config/DoxygenToolkit.vim
 
-" 中文文档
-Plugin 'vimcn/taglist.vim.cnx'
-Plugin 'vimcn/fugitive.cnx'
-Plugin 'vimcn/NERD_tree.vim.cnx'
-Plugin 'vimcn/ctrlp.cnx'
-Plugin 'vimcn/matchit.vim.cnx'
-Plugin 'vimcn/NERD_commenter.cnx'
-Plugin 'vimcn/syntastic.cnx'
+
 
 " }}}
 
+
+"========。。。。。===******===00000=
 
 " 废弃的插件 {{{
 

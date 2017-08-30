@@ -1,12 +1,16 @@
+" -------  Filetype  ------
+filetype on
+filetype plugin on
+filetype indent on
+
 " ------  Color  ------
 set t_Co=256 " 设置终端色彩
 set background=dark
 
 " ------  Fold  ------
 set foldmethod=syntax
-" set foldnestmax=100
-set nofoldenable
-set foldlevel=1
+set foldenable
+set foldlevel=2
 nnoremap <space> za
 vnoremap <space> zf
 
@@ -18,10 +22,13 @@ set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 syntax on
 set number
 set wrap
+set lazyredraw " 在执行宏的时候禁止重绘屏幕
 
 " ------  Indent  -----
 set autoindent
+set smartindent
 set shiftwidth=4
+set smarttab
 set tabstop=4
 set softtabstop=4
 set expandtab
@@ -58,7 +65,6 @@ set clipboard=unnamed
 let autosave=5      " 5秒自动保存一次
 set splitright      " 设定新窗口位置
 set splitbelow
-set noswapfile " 禁止生成交换文件
 set history=500
 set autoread
 set wildignore+=*.o,*~,*.pyc     " Ignore compiled files
@@ -67,14 +73,16 @@ set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 set ffs=unix,dos,mac
 set showmatch
-set nobackup
+set mat=2
 set mouse=a
 set helplang=cn,en
+set linebreak
+set textwidth=500
+
+
+set nobackup
+set nowritebackup
+set noswapfile " 禁止生成交换文件
 
 " -------  Define  ------
 " nnoremap gf :e <cfile><cr> " gf 打开文件
-
-" -------  Filetype  ------
-filetype on
-filetype plugin on
-filetype indent on
