@@ -130,6 +130,7 @@ Plugin 'terryma/vim-multiple-cursors'
 
 " Git操作
 Plugin 'tpope/vim-fugitive'
+" ~/.vim/vimrc/config/vim-fugitive.vim
 
 " 中文排版
 Plugin 'hotoo/pangu.vim'
