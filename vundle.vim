@@ -170,6 +170,9 @@ Plugin 'vim-scripts/DoxygenToolkit.vim'
 
 Plugin 'wakatime/vim-wakatime'
 
+Plugin 'mhinz/vim-startify'
+Plugin 'haya14busa/incsearch.vim'
+
 
 " }}}
 

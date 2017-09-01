@@ -18,9 +18,11 @@ let g:vimtex_view_automatic = 0
 let g:vimtex_view_forward_search_on_start = 0
 " let g:tex_fast= ""
 let g:tex_conceal = ''
+" let g:tex_flavor='latex'
+
 
 
 if !exists('g:ycm_semantic_triggers')
-  let g:ycm_semantic_triggers = {}
+	let g:ycm_semantic_triggers = {}
 endif
 let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
