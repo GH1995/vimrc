@@ -43,9 +43,6 @@ Plugin 'w0rp/ale'
 " 括号补全
 Plugin 'Raimondi/delimitMate'
 
-" 删除多余的空格
-Plugin 'bronson/vim-trailing-whitespace'
-
 " 缩进提示线
 Plugin 'Yggdroot/indentLine'
 
@@ -170,6 +167,7 @@ Plugin 'vim-scripts/winmanager'
 Plugin 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
 
+Plugin 'wakatime/vim-wakatime'
 
 
 " }}}
@@ -197,6 +195,9 @@ Plugin 'vim-scripts/DoxygenToolkit.vim'
 " Plugin 'easymotion/vim-easymotion'
 "Plugin 'hdima/python-syntax'
 " 文件时光机 Plugin 'sjl/gundo.vim'
+
+" 删除多余的空格
+" Plugin 'bronson/vim-trailing-whitespace'
 
 " }}}
 

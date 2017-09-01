@@ -4,6 +4,7 @@ let g:vimtex_enabled=1
 
 let g:vimtex_format_enabled=1
 let g:vimtex_indent_enabled=0
+let g:tex_indent_items=0
 " let g:vimtex_latexmk_options='-pdf -pdflatex=\"xelatex -synctex=1 \%S \%O\" -verbose -file-line-error -interaction=nonstopmode'
 let g:vimtex_latexmk_options ='-pdflatex="xelatex -shell-escape -synctex=1 -src-specials -interaction=nonstopmode $*"'
 

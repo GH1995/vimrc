@@ -4,7 +4,7 @@ let g:ale_lint_on_enter = 0
 nnoremap <silent> z[ <Plug>(ale_previous_wrap)
 nnoremap <silent> z] <Plug>(ale_next_wrap)
 
-nnoremap <leader>ale :ALELint<cr>
+nnoremap <leader>ale :ALEToggle<cr>
 
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign

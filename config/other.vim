@@ -11,7 +11,7 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>= :wa<cr>
 
 " 退出的快捷键
-nnoremap aq :qa<cr>
+" nnoremap aq :qa<cr>
 
 " 翻译
 " pip install ici
@@ -74,6 +74,7 @@ function! SetFileHead()
         call setline(1, "\#!/usr/bin/env python")
         call setline(2, "\# coding: utf-8")
         call setline(3, "")
+        call setline(4, "")
         execute "normal! G"
     elseif &filetype == 'cpp'
         call setline(1, "\#include <iostream>")
@@ -87,3 +88,12 @@ function! SetFileHead()
         execute "normal! Gkk$"
     endif
 endfunc
+
+" 加速
+set nocursorcolumn
+syntax sync minlines=128
+set synmaxcol=128
+set re=1
+
+" 实验
+autocmd FileType python set foldmethod=indent
