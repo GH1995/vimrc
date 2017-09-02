@@ -168,10 +168,22 @@ Plugin 'vim-scripts/winmanager'
 Plugin 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
 
+" 统计编程时间
 Plugin 'wakatime/vim-wakatime'
 
+" 启动画面
 Plugin 'mhinz/vim-startify'
 Plugin 'haya14busa/incsearch.vim'
+
+Plugin 'vim-scripts/Vim-Support'
+
+" 默认设置
+Plugin 'tpope/vim-sensible'
+
+" 管理会话
+" Plugin 'ahri/vim-sesspit'
+
+
 
 
 " }}}
