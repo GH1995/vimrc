@@ -6,7 +6,7 @@ You have to know **nothing**
 
 ## How to install
 
-```shell
+```sh
 #!/bin/bash
 
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
@@ -23,7 +23,7 @@ cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
 ```
 
 ## How to uninstall
-```shell
+```sh
 rm -rf ~/.vim ~/.vimrc
 ```
 
