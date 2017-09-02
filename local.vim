@@ -8,7 +8,7 @@ set t_Co=256 " 设置终端色彩
 set background=dark
 
 " ------  Fold  ------
-set foldmethod=syntax
+set foldmethod=indent
 set foldenable
 set foldlevel=2
 nnoremap <space> za
