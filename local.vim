@@ -8,7 +8,7 @@ set t_Co=256 " 设置终端色彩
 set background=dark
 
 " ------  Fold  ------
-set foldmethod=indent
+" set foldmethod=indent
 set foldenable
 set foldlevel=2
 nnoremap <space> za
@@ -37,7 +37,8 @@ set expandtab
 set incsearch
 set hlsearch
 set ignorecase " 忽略大小写
-set magic
+nnoremap / /\v " 使用全局的正则表达式
+cnoremap %s/ %s/\v
 
 " ------  Buffer Navigation ------
 nnoremap <c-c> <c-w>w<c-w><c-c> " 控制另一个窗口的关闭
