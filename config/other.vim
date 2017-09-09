@@ -1,38 +1,3 @@
-" Toggle paste mode on and off
-nnoremap <leader>op :setlocal paste!<cr>
-
-" ev命令编辑VIMRC文件
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-
-" sv命令source VIMRC文件
-nnoremap <leader>sv :source $MYVIMRC<cr>
-
-" 保存的快捷键
-nnoremap <leader>= :wa<cr>
-
-" 退出的快捷键
-" nnoremap aq :qa<cr>
-
-" 翻译
-" pip install ici
-nnoremap <leader>oy :!echo --==<c-r><c-w>==-- ;ici <c-r><c-w><cr>
-
-" 格式化
-nnoremap <leader>af :Autoformat<cr>
-
-" 解决搜索后的高亮问题
-nnoremap N :nohl<cr>
-
-" 解决保存权限的问题
-command! W w !sudo tee % > /dev/null
-
-" vim 打开后回到原来的位置
-au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
-
-" vimrc indent 折叠
-autocmd BufNewFile,BufRead *.vim setlocal foldmethod=indent
-autocmd BufRead vundle.vim setlocal foldmethod=marker
-
 nnoremap <F5> :call CompileRunGcc()<cr>
 func! CompileRunGcc()
     exec "w"
@@ -62,7 +27,7 @@ endfunc
 
 
 " 定义函数SetFileHead，自动插入文件头
-autocmd BufNewFile *.sh,*.py,*.cpp exec ":call SetFileHead()"
+autocmd BufNewFile *.sh,*.py,*.cpp,*.tex exec ":call SetFileHead()"
 " autocmd BufNewFile *.sh,*.py,*.cpp call SetFileHead()
 
 function! SetFileHead()
@@ -86,6 +51,25 @@ function! SetFileHead()
         call setline(7, "    return 0;")
         call setline(8, "}")
         execute "normal! Gkk$"
+    elseif ( &filetype == 'tex' || &filetype == 'plaintex' )
+        call setline(1, "\% https://gh1995.github.io")
+        call setline(2, "")
+        call setline(3, "\\documentclass[UTF8]{ctexart}")
+        call setline(4, "")
+        call setline(5, "\\input{}")
+        call setline(6, "")
+        call setline(7, "\\title{}")
+        call setline(8, "\\author{}")
+        call setline(9, "\\date{\\today 更新}")
+        call setline(10, "")
+        call setline(11, "\\begin{docment}")
+        call setline(12, "")
+        call setline(13, "\\maketitle")
+        call setline(14, "\\tablefocontent")
+        call setline(15, "")
+        call setline(16, "\\include{}")
+        call setline(17, "")
+        call setline(18, "\\end{document}")
     endif
 endfunc
 

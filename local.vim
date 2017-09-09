@@ -37,8 +37,8 @@ set expandtab
 set incsearch
 set hlsearch
 set ignorecase " 忽略大小写
-nnoremap / /\v " 使用全局的正则表达式
-cnoremap %s/ %s/\v
+" nnoremap / /\v " 使用全局的正则表达式
+" cnoremap %s/ %s/\v
 
 " ------  Buffer Navigation ------
 nnoremap <c-c> <c-w>w<c-w><c-c> " 控制另一个窗口的关闭
@@ -75,7 +75,7 @@ set whichwrap+=<,>,h,l
 set ffs=unix,dos,mac
 set showmatch
 set mat=2
-set mouse=a
+" set mouse=a
 set helplang=cn,en
 set linebreak
 set textwidth=500
