@@ -53,23 +53,6 @@ function! SetFileHead()
         execute "normal! Gkk$"
     elseif ( &filetype == 'tex' || &filetype == 'plaintex' )
         call setline(1, "\% https://gh1995.github.io")
-        call setline(2, "")
-        call setline(3, "\\documentclass[UTF8]{ctexart}")
-        call setline(4, "")
-        call setline(5, "\\input{}")
-        call setline(6, "")
-        call setline(7, "\\title{}")
-        call setline(8, "\\author{}")
-        call setline(9, "\\date{\\today 更新}")
-        call setline(10, "")
-        call setline(11, "\\begin{docment}")
-        call setline(12, "")
-        call setline(13, "\\maketitle")
-        call setline(14, "\\tablefocontent")
-        call setline(15, "")
-        call setline(16, "\\include{}")
-        call setline(17, "")
-        call setline(18, "\\end{document}")
     endif
 endfunc
 

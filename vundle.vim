@@ -172,19 +172,16 @@ Plugin 'vim-scripts/DoxygenToolkit.vim'
 Plugin 'wakatime/vim-wakatime'
 
 " 启动画面
-Plugin 'mhinz/vim-startify'
-Plugin 'haya14busa/incsearch.vim'
+" Plugin 'mhinz/vim-startify'
+" Plugin 'haya14busa/incsearch.vim'
 
-Plugin 'vim-scripts/Vim-Support'
+" Plugin 'vim-scripts/Vim-Support'
 
 " 默认设置
 Plugin 'tpope/vim-sensible'
 
 " 管理会话
 " Plugin 'ahri/vim-sesspit'
-
-
-
 
 " }}}
 
