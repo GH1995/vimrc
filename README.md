@@ -17,7 +17,8 @@ ln ~/.vim/vimrc/vimrc_real ~/.vimrc
 vim +PluginInstall +qall
 
 cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
-./install.py
+./install.py --clang-completer
+
 
  echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
