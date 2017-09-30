@@ -109,6 +109,8 @@ set laststatus=2
 Plugin 'mbbill/fencview'
 
 " 配色
+Plugin 'flazz/vim-colorschemes'
+" ~/.vim/vimrc/config/vim-colorschemes.vim
 " Plugin 'altercation/vim-colors-solarized'
 " ~/.vim/vimrc/config/vim-colors-solarized.vim
 
