@@ -86,6 +86,20 @@ Plugin 'vimcn/matchit.vim.cnx'
 Plugin 'vimcn/NERD_commenter.cnx'
 Plugin 'vimcn/syntastic.cnx'
 
+" Airline 状态栏
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+" ~/.vim/vimrc/config/vim-airline.vim
+" Plugin 'Lokaltog/vim-powerline'
+set laststatus=2
+
+" 中文文档
+Plugin 'vimcn/vimcdoc'
+
+Plugin 'Chiel92/vim-autoformat'
+" ~/.vim/vimrc/config/vim-autoformat.vim
+
+
 " }}}
 
 
@@ -95,15 +109,9 @@ Plugin 'vimcn/syntastic.cnx'
 " 测试中的插件 {{{
 
 " lib
-Plugin 'vim-scripts/L9'
+" Plugin 'vim-scripts/L9'
 
-" Airline 状态栏
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-" ~/.vim/vimrc/config/vim-airline.vim
 
-" Plugin 'Lokaltog/vim-powerline'
-set laststatus=2
 
 " 文件编码
 Plugin 'mbbill/fencview'
@@ -147,11 +155,6 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'mbbill/undotree'
 " ~/.vim/vimrc/config/undotree.vim
 
-" 中文文档
-Plugin 'vimcn/vimcdoc'
-
-Plugin 'Chiel92/vim-autoformat'
-" ~/.vim/vimrc/config/vim-autoformat.vim
 
 " Plugin 'vim-scripts/YankRing.vim'
 Plugin 'fs111/pydoc.vim'
@@ -184,6 +187,9 @@ Plugin 'tpope/vim-sensible'
 
 " 管理会话
 " Plugin 'ahri/vim-sesspit'
+
+" HTML
+Plugin 'mattn/emmet-vim'
 
 " }}}
 
