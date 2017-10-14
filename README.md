@@ -11,14 +11,14 @@ You have to know **nothing**
 
 ### tutorial, hard
 
-[engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
-[chinese](https://coolshell.cn/articles/5426.html)
+- [engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
+- [chinese](https://coolshell.cn/articles/5426.html)
 
 ----
 
 ## install and uninstall
 
-*How to install*
+**How to install**
 
 ```
 #!/bin/bash
@@ -38,7 +38,7 @@ echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
 
 
-*How to uninstall*
+**How to uninstall**
 
 ```
 rm -rf ~/.vim ~/.vimrc
