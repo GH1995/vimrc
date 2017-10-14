@@ -2,11 +2,25 @@
 
 You have to know **nothing**
 
+## How to use vim
+
+### you must be alive
+
+**exit vim**: please input `:q`, don't forget the `:`!
+
+
+### tutorial, hard
+
+[engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
+[chinese](https://coolshell.cn/articles/5426.html)
+
+----
+
 ## install and uninstall
 
-### How to install
+*How to install*
 
-```sh
+```
 #!/bin/bash
 
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
@@ -20,19 +34,19 @@ cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
 ./install.py --clang-completer
 
 
- echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
+echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
 
-### How to uninstall
 
-```sh
+*How to uninstall*
+
+```
 rm -rf ~/.vim ~/.vimrc
 ```
 
-## How to use
+## How to use the config
 
 My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
-
 
 ### vimrc
 
