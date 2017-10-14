@@ -1,1 +1,2 @@
-colorscheme Monokai
+" colorscheme Monokai
+colorscheme desert

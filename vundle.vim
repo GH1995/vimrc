@@ -7,7 +7,7 @@ set rtp+=~/.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-" 稳定的 {{{
+" stable {{{
 
 " YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
@@ -28,9 +28,11 @@ Plugin 'ctrlpvim/ctrlp.vim'
 
 " surround
 Plugin 'tpope/vim-surround'
+" ~/.vim/vimrc/vim-surround.vim
 
 " vim-repeat
 Plugin 'tpope/vim-repeat'
+" ~/.vim/vimrc/vim-repeat.vim
 
 " 区域选中
 Plugin 'terryma/vim-expand-region'
@@ -39,9 +41,6 @@ Plugin 'terryma/vim-expand-region'
 " 语法检查
 Plugin 'w0rp/ale'
 " ~/.vim/vimrc/config/ale.vim
-
-" 括号补全
-Plugin 'Raimondi/delimitMate'
 
 " 缩进提示线
 Plugin 'Yggdroot/indentLine'
@@ -68,6 +67,7 @@ Plugin 'vim-scripts/matchit.zip'
 " 格式化C++
 Plugin 'kana/vim-operator-user'
 Plugin 'rhysd/vim-clang-format'
+" :ClangFormat 
 
 " 智能注释
 Plugin 'scrooloose/nerdcommenter'
@@ -77,14 +77,6 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'lervag/vimtex'
 " ~/.vim/vimrc/config/vimtex.vim
 
-" 中文文档
-Plugin 'vimcn/taglist.vim.cnx'
-Plugin 'vimcn/fugitive.cnx'
-Plugin 'vimcn/NERD_tree.vim.cnx'
-Plugin 'vimcn/ctrlp.cnx'
-Plugin 'vimcn/matchit.vim.cnx'
-Plugin 'vimcn/NERD_commenter.cnx'
-Plugin 'vimcn/syntastic.cnx'
 
 " Airline 状态栏
 Plugin 'vim-airline/vim-airline'
@@ -93,15 +85,29 @@ Plugin 'vim-airline/vim-airline-themes'
 " Plugin 'Lokaltog/vim-powerline'
 set laststatus=2
 
-" 中文文档
-Plugin 'vimcn/vimcdoc'
 
+" format code
 Plugin 'Chiel92/vim-autoformat'
 " ~/.vim/vimrc/config/vim-autoformat.vim
 
 
 " }}}
 
+" stable without config {{{
+" 中文文档
+
+Plugin 'vimcn/taglist.vim.cnx'
+Plugin 'vimcn/fugitive.cnx'
+Plugin 'vimcn/NERD_tree.vim.cnx'
+Plugin 'vimcn/ctrlp.cnx'
+Plugin 'vimcn/matchit.vim.cnx'
+Plugin 'vimcn/NERD_commenter.cnx'
+Plugin 'vimcn/syntastic.cnx'
+
+" 中文文档
+Plugin 'vimcn/vimcdoc'
+
+" }}}
 
 "========。。。。。===******===00000=
 
@@ -111,7 +117,8 @@ Plugin 'Chiel92/vim-autoformat'
 " lib
 " Plugin 'vim-scripts/L9'
 
-
+" 括号补全
+Plugin 'Raimondi/delimitMate'
 
 " 文件编码
 Plugin 'mbbill/fencview'
@@ -190,6 +197,12 @@ Plugin 'tpope/vim-sensible'
 
 " HTML
 Plugin 'mattn/emmet-vim'
+
+"
+Plugin 'Shougo/unite.vim'
+
+" 针对日期<c-a> <c-x>
+Plugin 'tpope/vim-speeddating'
 
 " }}}
 

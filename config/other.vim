@@ -36,7 +36,7 @@ function! SetFileHead()
         call setline(2, "")
         execute "normal! G"
     elseif &filetype == 'python'
-        call setline(1, "\#!/usr/bin/env python")
+        call setline(1, "\#!/usr/bin/env python3")
         call setline(2, "\# coding: utf-8")
         call setline(3, "")
         call setline(4, "")

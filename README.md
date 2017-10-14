@@ -2,9 +2,9 @@
 
 You have to know **nothing**
 
-# install and uninstall
+## install and uninstall
 
-## How to install
+### How to install
 
 ```sh
 #!/bin/bash
@@ -23,43 +23,40 @@ cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
  echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
 
-## How to uninstall
+### How to uninstall
 ```sh
 rm -rf ~/.vim ~/.vimrc
 ```
 
-# How to use
+## How to use
 
 My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 
-| key          | use            |
+|      key     | use            |
 |:------------:|:---------------|
 | `<leader>ut` | UndoTreetoggle |
 
-## vimrc
+### vimrc
 
-| key          | use               |
+|      key     | use               |
 |:------------:|:------------------|
 | `<leader>ev` | edit `~/.vimrc`   |
 | `<leader>sv` | source `~/.vimrc` |
 
-## other config
+### other config
 
-| key          | use                    |
+|      key     | use                    |
 |:------------:|:-----------------------|
 | `<leader>op` | set (other) paste      |
 | `<leader>oy` | translate current word |
 
-| key              | use              |
-|:----------------:|:-----------------|
-| `<leader>af`     | AutoFormat       |
-| `<leader>tb`     | TagBartoggle     |
-| `<leader>tm`     | TableModeltoggle |
-| `:FixWhitespace` | FixWhitespace    |
-| `<leader>cc`     | add comments     |
-| `<leader>cu`     | delete comments  |
+|      key     | use              |
+|:------------:|:-----------------|
+| `<leader>tb` | TagBartoggle     |
+| `<leader>tm` | TableModeltoggle |
+|    `<F5>`    | run python       |
 
-## YouCompleteMe
+### YouCompleteMe
 
 |     key     | use                              |
 |:-----------:|:---------------------------------|
@@ -67,53 +64,96 @@ My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
 | `<leader>d` | get doc                          |
 | `<c-space>` | invoke completion                |
 
-## ultisnips
+### ultisnips
 
 |   key   | use                           |
 |:-------:|:------------------------------|
 | `<c-b>` | expand trigger / jump forward |
 | `<c-z>` | jump backward                 |
 
-## nerdtree
+### nerdtree
 
 |      key     | use             |
 |:------------:|:----------------|
 | `<leader>nt` | nerdtree toggle |
 |     `go`     | open file       |
 
+> If you find some problems, please use `<c-l>`
 
-## Markdown
+### ctrlp
+|   key   | use              |
+|:-------:|:-----------------|
+| `<c-p>` | show file buffer |
 
-| key                           | use                                |
-|:-----------------------------:|:-----------------------------------|
-| `<leader>tf`                  | format table (cursor on the table) |
-| `:toc`                        | open the toc                       |
-| `<leader>hi` and `<leader>hd` | increase and decrease header       |
+### surround
+#### example
+| old text                | command   | new text                    |
+| ---:                    | :----:    | :---                        |
+| `"Hello *world!"`       | `ds"`     | `Hello world!`              |
+| `[123+4*56]/2`          | `cs])`    | `(123+456)/2`               |
+| `"Look ma, I'm *HTML!"` | `cs"<q>`  | `<q>Look ma, I'm HTML!</q>` |
+| `if *x>3 {`             | `ysW(`    | `if ( x>3 ) {`              |
+| `my $str = *whee!;`     | `vlllls'` | `my $str = 'whee!';`        |
+| `<div>Yo!*</div>`       | `dst`     | `Yo!`                       |
+| `<div>Yo!*</div>`       | `cst<p>`  | `<p>Yo!</p>`                |
 
-## Python
+#### command
 
-| key    | use        |
-|:------:|:-----------|
-| `<F5>` | run python |
+**Normal mode**
+| key   | use                                                                       |
+|:-----:|:--------------------------------------------------------------------------|
+| `ds`  | delete a surrounding                                                      |
+| `cs`  | change a surrounding                                                      |
+| `ys`  | add a surrounding                                                         |
+| `yS`  | add a surrounding and place the surrounded text on a new line + indent it |
+| `yss` | add a surrounding to the whole line                                       |
+| `ySs` | add a surrounding to the whole line, place it on a new line + indent it   |
+| `ySS` | same as ySs                                                               |
 
-## LaTeX
+**visual mode**
+|  key | use                                                                      |
+|:----:|:-------------------------------------------------------------------------|
+|  `S` | in visual mode, add a surrounding                                        |
+| `gS` | in visual mode, add a surrounding but place text on new line + indent it |
+
+### vim expand region
+| key | use                         |
+|:---:|:----------------------------|
+| `v` | increase selection          |
+| `V` | decrease  selection         |
+| `+` | expand the visual selection |
+| `-` | shrink the visual selection |
+
+### ale: Asynchronous Lint Engine
+|      key      | use                  |
+|:-------------:|:---------------------|
+|      `z[`     | go to previous error |
+|      `z]`     | go to next error     |
+| `<leader>ale` | ALE toggle           |
+
+
+### comments
+| `<leader>cc`     | add comments     |
+| `<leader>cu`     | delete comments  |
+
+### LaTeX
 | key   | use      |
 |:-----:|:---------|
 | `\ll` | compile  |
 | `\lv` | view pdf |
 | `\lc` | clean    |
 
-## ale
+### Markdown
 
-|      key      | use          |
-|:-------------:|:-------------|
-| `<leader>ale` | syntax check |
+|      key     | use                                |
+|:------------:|:-----------------------------------|
+| `<leader>tf` | format table (cursor on the table) |
+|    `:Toc`    | open the toc                       |
 
-## ctrlp
-| key     | use              |
-|:-------:|:-----------------|
-| `<c-p>` | show file buffer |
 
-# End
+### autoformat
+|      key     | use    |
+|:------------:|:-------|
+| `<leader>af` | format |
 
 **Good night**
