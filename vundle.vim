@@ -90,7 +90,6 @@ set laststatus=2
 Plugin 'Chiel92/vim-autoformat'
 " ~/.vim/vimrc/config/vim-autoformat.vim
 
-
 " }}}
 
 " stable without config {{{
@@ -107,10 +106,13 @@ Plugin 'vimcn/syntastic.cnx'
 " 中文文档
 Plugin 'vimcn/vimcdoc'
 
+" undotree
+Plugin 'mbbill/undotree'
+" ~/.vim/vimrc/config/undotree.vim
+
 " }}}
 
 "========。。。。。===******===00000=
-
 
 " 测试中的插件 {{{
 
@@ -159,8 +161,6 @@ Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'kshenoy/vim-signature'
 " ~/.vim/vimrc/config/vim-signature.vim
 
-Plugin 'mbbill/undotree'
-" ~/.vim/vimrc/config/undotree.vim
 
 
 " Plugin 'vim-scripts/YankRing.vim'

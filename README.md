@@ -24,136 +24,149 @@ cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
 ```
 
 ### How to uninstall
+
 ```sh
 rm -rf ~/.vim ~/.vimrc
 ```
 
 ## How to use
 
-My leader is `-`, and you can modify it in ~/.vim/vimrc/lab.vim.
+My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
-|      key     | use            |
-|:------------:|:---------------|
-| `<leader>ut` | UndoTreetoggle |
 
 ### vimrc
 
-|      key     | use               |
-|:------------:|:------------------|
+|          key | use               |
+|-------------:|:------------------|
 | `<leader>ev` | edit `~/.vimrc`   |
 | `<leader>sv` | source `~/.vimrc` |
 
 ### other config
 
-|      key     | use                    |
-|:------------:|:-----------------------|
+|          key | use                    |
+|-------------:|:-----------------------|
 | `<leader>op` | set (other) paste      |
 | `<leader>oy` | translate current word |
 
-|      key     | use              |
-|:------------:|:-----------------|
+|          key | use              |
+|-------------:|:-----------------|
 | `<leader>tb` | TagBartoggle     |
 | `<leader>tm` | TableModeltoggle |
-|    `<F5>`    | run python       |
+|       `<F5>` | run python       |
 
 ### YouCompleteMe
 
-|     key     | use                              |
-|:-----------:|:---------------------------------|
+|         key | use                              |
+|------------:|:---------------------------------|
 | `<leader>g` | goto definition else declaration |
 | `<leader>d` | get doc                          |
 | `<c-space>` | invoke completion                |
 
 ### ultisnips
 
-|   key   | use                           |
-|:-------:|:------------------------------|
+|     key | use                           |
+|--------:|:------------------------------|
 | `<c-b>` | expand trigger / jump forward |
 | `<c-z>` | jump backward                 |
 
 ### nerdtree
 
-|      key     | use             |
-|:------------:|:----------------|
+|          key | use             |
+|-------------:|:----------------|
 | `<leader>nt` | nerdtree toggle |
-|     `go`     | open file       |
+|         `go` | open file       |
 
 > If you find some problems, please use `<c-l>`
 
 ### ctrlp
-|   key   | use              |
-|:-------:|:-----------------|
+|     key | use              |
+|--------:|:-----------------|
 | `<c-p>` | show file buffer |
 
 ### surround
+
 #### example
-| old text                | command   | new text                    |
-| ---:                    | :----:    | :---                        |
-| `"Hello *world!"`       | `ds"`     | `Hello world!`              |
-| `[123+4*56]/2`          | `cs])`    | `(123+456)/2`               |
-| `"Look ma, I'm *HTML!"` | `cs"<q>`  | `<q>Look ma, I'm HTML!</q>` |
-| `if *x>3 {`             | `ysW(`    | `if ( x>3 ) {`              |
-| `my $str = *whee!;`     | `vlllls'` | `my $str = 'whee!';`        |
-| `<div>Yo!*</div>`       | `dst`     | `Yo!`                       |
-| `<div>Yo!*</div>`       | `cst<p>`  | `<p>Yo!</p>`                |
+
+|                old text |  command  | new text                    |
+|------------------------:|:---------:|:----------------------------|
+|       `"Hello *world!"` |   `ds"`   | `Hello world!`              |
+|          `[123+4*56]/2` |   `cs])`  | `(123+456)/2`               |
+| `"Look ma, I'm *HTML!"` |  `cs"<q>` | `<q>Look ma, I'm HTML!</q>` |
+|             `if *x>3 {` |   `ysW(`  | `if ( x>3 ) {`              |
+|     `my $str = *whee!;` | `vlllls'` | `my $str = 'whee!';`        |
+|       `<div>Yo!*</div>` |   `dst`   | `Yo!`                       |
+|       `<div>Yo!*</div>` |  `cst<p>` | `<p>Yo!</p>`                |
 
 #### command
 
 **Normal mode**
-| key   | use                                                                       |
-|:-----:|:--------------------------------------------------------------------------|
-| `ds`  | delete a surrounding                                                      |
-| `cs`  | change a surrounding                                                      |
-| `ys`  | add a surrounding                                                         |
-| `yS`  | add a surrounding and place the surrounded text on a new line + indent it |
+
+|   key | use                                                                       |
+|------:|:--------------------------------------------------------------------------|
+|  `ds` | delete a surrounding                                                      |
+|  `cs` | change a surrounding                                                      |
+|  `ys` | add a surrounding                                                         |
+|  `yS` | add a surrounding and place the surrounded text on a new line + indent it |
 | `yss` | add a surrounding to the whole line                                       |
 | `ySs` | add a surrounding to the whole line, place it on a new line + indent it   |
 | `ySS` | same as ySs                                                               |
 
 **visual mode**
+
 |  key | use                                                                      |
-|:----:|:-------------------------------------------------------------------------|
+|-----:|:-------------------------------------------------------------------------|
 |  `S` | in visual mode, add a surrounding                                        |
 | `gS` | in visual mode, add a surrounding but place text on new line + indent it |
 
 ### vim expand region
+
 | key | use                         |
-|:---:|:----------------------------|
+|----:|:----------------------------|
 | `v` | increase selection          |
 | `V` | decrease  selection         |
 | `+` | expand the visual selection |
 | `-` | shrink the visual selection |
 
 ### ale: Asynchronous Lint Engine
-|      key      | use                  |
-|:-------------:|:---------------------|
-|      `z[`     | go to previous error |
-|      `z]`     | go to next error     |
+
+|           key | use                  |
+|--------------:|:---------------------|
+|          `z[` | go to previous error |
+|          `z]` | go to next error     |
 | `<leader>ale` | ALE toggle           |
 
 
 ### comments
-| `<leader>cc`     | add comments     |
-| `<leader>cu`     | delete comments  |
+
+|          key | use             |
+|-------------:|:----------------|
+| `<leader>cc` | add comments    |
+| `<leader>cu` | delete comments |
 
 ### LaTeX
-| key   | use      |
-|:-----:|:---------|
+
+|   key | use      |
+|------:|:---------|
 | `\ll` | compile  |
 | `\lv` | view pdf |
 | `\lc` | clean    |
 
 ### Markdown
 
-|      key     | use                                |
-|:------------:|:-----------------------------------|
+|          key | use                                |
+|-------------:|:-----------------------------------|
 | `<leader>tf` | format table (cursor on the table) |
-|    `:Toc`    | open the toc                       |
+|       `:Toc` | open the toc                       |
 
 
 ### autoformat
-|      key     | use    |
-|:------------:|:-------|
+
+|          key | use    |
+|-------------:|:-------|
 | `<leader>af` | format |
 
-**Good night**
+### undotree
+
+|          key | use            |
+|-------------:|:---------------|
+| `<leader>ut` | UndoTreetoggle |
