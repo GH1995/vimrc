@@ -65,6 +65,7 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 | `<leader>tb` | TagBartoggle     |
 | `<leader>tm` | TableModeltoggle |
 |       `<F5>` | run python       |
+|         `-+` | save file        |
 
 ### YouCompleteMe
 
