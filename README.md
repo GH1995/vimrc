@@ -6,10 +6,10 @@ You have to know **nothing**
 
 ### you must be alive
 
-**exit vim**: please input `:q`, don't forget the `:`!
+**exit vim**: please input `:q<enter>`, don't forget the `:`!
 
 
-### tutorial, hard
+### tutorial
 
 - [engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
 - [chinese](https://coolshell.cn/articles/5426.html)
@@ -21,8 +21,6 @@ You have to know **nothing**
 **How to install**
 
 ```
-#!/bin/bash
-
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
