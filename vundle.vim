@@ -204,6 +204,8 @@ Plugin 'Shougo/unite.vim'
 " 针对日期<c-a> <c-x>
 Plugin 'tpope/vim-speeddating'
 
+Plugin 'ntpeters/vim-better-whitespace'
+
 " }}}
 
 
