@@ -206,6 +206,13 @@ Plugin 'tpope/vim-speeddating'
 
 Plugin 'ntpeters/vim-better-whitespace'
 
+" Graphviz
+Plugin 'wannesm/wmgraphviz.vim'
+
+Plugin 'skywind3000/asyncrun.vim'
+
+
+
 " }}}
 
 
