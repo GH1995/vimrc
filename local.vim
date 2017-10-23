@@ -7,16 +7,16 @@ filetype indent on
 set t_Co=256 " 设置终端色彩
 set background=dark
 
+" ------  Charset Init  ------
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
+
 " ------  Fold  ------
-" set foldmethod=indent
+autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
 set foldenable
 set foldlevel=2
 nnoremap <space> za
 vnoremap <space> zf
-
-" ------  Charset Init  ------
-set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " ------  Visual  ------
 syntax on
