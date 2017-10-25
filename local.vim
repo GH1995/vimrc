@@ -7,22 +7,23 @@ filetype indent on
 set t_Co=256 " 设置终端色彩
 set background=dark
 
+" ------  Visual  ------
+syntax on
+set number
+set wrap
+set lazyredraw " 在执行宏的时候禁止重绘屏幕
+
 " ------  Charset Init  ------
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " ------  Fold  ------
 autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
+set foldmethod=syntax
 set foldenable
 set foldlevel=2
 nnoremap <space> za
 vnoremap <space> zf
-
-" ------  Visual  ------
-syntax on
-set number
-set wrap
-set lazyredraw " 在执行宏的时候禁止重绘屏幕
 
 " ------  Indent  -----
 set autoindent
