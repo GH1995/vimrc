@@ -212,7 +212,6 @@ Plugin 'wannesm/wmgraphviz.vim'
 Plugin 'skywind3000/asyncrun.vim'
 
 
-
 " }}}
 
 
