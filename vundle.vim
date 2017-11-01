@@ -67,7 +67,7 @@ Plugin 'vim-scripts/matchit.zip'
 " 格式化C++
 Plugin 'kana/vim-operator-user'
 Plugin 'rhysd/vim-clang-format'
-" :ClangFormat 
+" :ClangFormat
 
 " 智能注释
 Plugin 'scrooloose/nerdcommenter'
@@ -211,6 +211,8 @@ Plugin 'wannesm/wmgraphviz.vim'
 
 Plugin 'skywind3000/asyncrun.vim'
 
+" mouse
+Plugin 'nvie/vim-togglemouse'
 
 " }}}
 
