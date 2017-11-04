@@ -77,14 +77,12 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'lervag/vimtex'
 " ~/.vim/vimrc/config/vimtex.vim
 
-
 " Airline 状态栏
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 " ~/.vim/vimrc/config/vim-airline.vim
 " Plugin 'Lokaltog/vim-powerline'
 set laststatus=2
-
 
 " format code
 Plugin 'Chiel92/vim-autoformat'
@@ -160,8 +158,6 @@ Plugin 'dhruvasagar/vim-table-mode'
 " marker
 Plugin 'kshenoy/vim-signature'
 " ~/.vim/vimrc/config/vim-signature.vim
-
-
 
 " Plugin 'vim-scripts/YankRing.vim'
 Plugin 'fs111/pydoc.vim'
