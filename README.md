@@ -1,5 +1,9 @@
 # DON'T PANIC
 
+@log
+- add some plugins for html/css/js without fixed
+- modify the base config
+
 You have to know **nothing**
 
 ## How to use vim
