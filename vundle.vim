@@ -191,7 +191,7 @@ Plugin 'tpope/vim-sensible'
 " 管理会话
 " Plugin 'ahri/vim-sesspit'
 
-" HTML
+" 快速书写html
 Plugin 'mattn/emmet-vim'
 
 "
@@ -209,6 +209,58 @@ Plugin 'skywind3000/asyncrun.vim'
 
 " mouse
 Plugin 'nvie/vim-togglemouse'
+
+" 类似ctrl-p
+Plugin 'tacahiroy/ctrlp-funky'
+" ~/.vim/vimrc/config/ctrlp-funky.vim
+
+" 提供快速grep功能
+Plugin 'rking/ag.vim'
+" ~/.vim/vimrc/config/ag.vim
+
+" 模糊查找的功能
+Plugin 'ggVGc/vim-fuzzysearch'
+" ~/.vim/vimrc/config/vim-fuzzysearch.vim
+
+" 高亮显示文档中颜色代码
+Plugin 'gorodinskiy/vim-coloresque'
+
+" 保存当前打开文件、slpit窗口、buffer的状态，下次在该目录下运行vim的时候自动还原
+Plugin 'tpope/vim-obsession'
+Plugin 'dhruvasagar/vim-prosession'
+
+" 在左侧添加书签、注释等。
+Plugin 'MattesGroeger/vim-bookmarks'
+
+" 最大化当前窗口\返回之前状态切换，在多个split窗口的非常有用
+Plugin 'szw/vim-maximizer'
+
+" 跳转到任意位置
+Plugin 'Lokaltog/vim-easymotion'
+
+" 自动关闭html, xml标签
+Plugin 'alvan/vim-closetag'
+
+" 快速交换函数参数位置
+Plugin 'machakann/vim-swap'
+
+" 快速排序
+Plugin 'christoomey/vim-sort-motion'
+
+" css3语法高亮
+Plugin 'hail2u/vim-css3-syntax'
+
+" JS语法高亮
+Plugin 'pangloss/vim-javascript'
+
+" 一些javascript library的语法高亮
+Plugin 'othree/javascript-libraries-syntax.vim'
+
+" vim版jsfiddle，打开3个split窗口，分别是css,js,html，快速写点小demo时比较实用
+Plugin 'ruanyl/vim-fidget'
+
+" 自动生成js doc
+Plugin 'heavenshell/vim-jsdoc'
 
 " }}}
 
