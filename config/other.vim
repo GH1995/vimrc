@@ -41,16 +41,16 @@ function! SetFileHead()
         call setline(3, "")
         call setline(4, "")
         execute "normal! G"
-    elseif &filetype == 'cpp'
-        call setline(1, "\#include <iostream>")
-        call setline(2, "using namespace std;")
-        call setline(3, "")
-        call setline(4, "int main()")
-        call setline(5, "{")
-        call setline(6, "     ")
-        call setline(7, "    return 0;")
-        call setline(8, "}")
-        execute "normal! Gkk$"
+    " elseif &filetype == 'cpp'
+        " call setline(1, "\#include <iostream>")
+        " call setline(2, "using namespace std;")
+        " call setline(3, "")
+        " call setline(4, "int main()")
+        " call setline(5, "{")
+        " call setline(6, "     ")
+        " call setline(7, "    return 0;")
+        " call setline(8, "}")
+        " execute "normal! Gkk$"
     elseif ( &filetype == 'tex' || &filetype == 'plaintex' )
         call setline(1, "\% https://gh1995.github.io")
     endif

@@ -88,6 +88,14 @@ set laststatus=2
 Plugin 'Chiel92/vim-autoformat'
 " ~/.vim/vimrc/config/vim-autoformat.vim
 
+" 括号补全
+Plugin 'Raimondi/delimitMate'
+
+" 括号高亮
+Plugin 'kien/rainbow_parentheses.vim'
+" ~/.vim/vimrc/config/rainbow-parentheses.vim
+
+
 " }}}
 
 " stable without config {{{
@@ -117,8 +125,6 @@ Plugin 'mbbill/undotree'
 " lib
 " Plugin 'vim-scripts/L9'
 
-" 括号补全
-Plugin 'Raimondi/delimitMate'
 
 " 文件编码
 Plugin 'mbbill/fencview'
@@ -133,9 +139,6 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'thinca/vim-quickrun'
 " ~/.vim/vimrc/config/vim-quickrun.vim
 
-" 括号高亮
-Plugin 'kien/rainbow_parentheses.vim'
-" ~/.vim/vimrc/config/rainbow-parentheses.vim
 
 " 快速对齐
 Plugin 'junegunn/vim-easy-align'
