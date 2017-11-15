@@ -8,3 +8,5 @@ nnoremap <leader>d  :YcmCompleter GetDoc<CR>
 let g:ycm_complete_in_comments = 1
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
+let g:ycm_path_to_python_interpreter='/home/hxs/miniconda3/bin/python'

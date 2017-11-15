@@ -33,4 +33,5 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 autocmd BufNewFile,BufRead *.vim setlocal foldmethod=indent
 autocmd BufRead vundle.vim setlocal foldmethod=marker
 
-" mouse
+" fileformat
+nnoremap <leader>ff :set fileformat=unix<cr>
