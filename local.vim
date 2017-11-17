@@ -88,3 +88,10 @@ set noswapfile " 禁止生成交换文件
 
 " -------  Define  ------
 " nnoremap gf :e <cfile><cr> " gf 打开文件
+
+
+" 加速
+set nocursorcolumn
+syntax sync minlines=128
+set synmaxcol=128
+set re=1
