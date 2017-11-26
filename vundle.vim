@@ -265,6 +265,8 @@ Plugin 'ruanyl/vim-fidget'
 " 自动生成js doc
 Plugin 'heavenshell/vim-jsdoc'
 
+Plugin 'geekan/source-insight-vim'
+
 " }}}
 
 
