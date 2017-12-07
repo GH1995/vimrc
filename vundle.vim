@@ -95,6 +95,9 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'kien/rainbow_parentheses.vim'
 " ~/.vim/vimrc/config/rainbow-parentheses.vim
 
+" 快速对齐
+Plugin 'junegunn/vim-easy-align'
+" ~/.vim/vimrc/config/vim-easy-align.vim
 
 " }}}
 
@@ -127,7 +130,7 @@ Plugin 'mbbill/undotree'
 
 
 " 文件编码
-Plugin 'mbbill/fencview'
+" Plugin 'mbbill/fencview'
 
 " 配色
 Plugin 'flazz/vim-colorschemes'
@@ -138,11 +141,6 @@ Plugin 'flazz/vim-colorschemes'
 " 快速执行
 Plugin 'thinca/vim-quickrun'
 " ~/.vim/vimrc/config/vim-quickrun.vim
-
-
-" 快速对齐
-Plugin 'junegunn/vim-easy-align'
-" ~/.vim/vimrc/config/vim-easy-align.vim
 
 " 多光标操作
 Plugin 'terryma/vim-multiple-cursors'
@@ -227,10 +225,6 @@ Plugin 'ggVGc/vim-fuzzysearch'
 
 " 高亮显示文档中颜色代码
 Plugin 'gorodinskiy/vim-coloresque'
-
-" 保存当前打开文件、slpit窗口、buffer的状态，下次在该目录下运行vim的时候自动还原
-Plugin 'tpope/vim-obsession'
-Plugin 'dhruvasagar/vim-prosession'
 
 " 在左侧添加书签、注释等。
 Plugin 'MattesGroeger/vim-bookmarks'
