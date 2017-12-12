@@ -99,6 +99,14 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/vim-easy-align'
 " ~/.vim/vimrc/config/vim-easy-align.vim
 
+Plugin 'ervandew/supertab'
+
+" 针对日期<c-a> <c-x>
+Plugin 'tpope/vim-speeddating'
+
+" mouse
+Plugin 'nvie/vim-togglemouse'
+
 " }}}
 
 " stable without config {{{
@@ -125,18 +133,12 @@ Plugin 'mbbill/undotree'
 
 " 测试中的插件 {{{
 
-" lib
-" Plugin 'vim-scripts/L9'
-
-
 " 文件编码
-" Plugin 'mbbill/fencview'
+Plugin 'mbbill/fencview'
 
 " 配色
 Plugin 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
-" Plugin 'altercation/vim-colors-solarized'
-" ~/.vim/vimrc/config/vim-colors-solarized.vim
 
 " 快速执行
 Plugin 'thinca/vim-quickrun'
@@ -163,7 +165,6 @@ Plugin 'kshenoy/vim-signature'
 " Plugin 'vim-scripts/YankRing.vim'
 Plugin 'fs111/pydoc.vim'
 
-Plugin 'ervandew/supertab'
 
 " markdown
 Plugin 'godlygeek/tabular'
@@ -198,8 +199,6 @@ Plugin 'mattn/emmet-vim'
 "
 Plugin 'Shougo/unite.vim'
 
-" 针对日期<c-a> <c-x>
-Plugin 'tpope/vim-speeddating'
 
 Plugin 'ntpeters/vim-better-whitespace'
 
@@ -208,8 +207,6 @@ Plugin 'wannesm/wmgraphviz.vim'
 
 Plugin 'skywind3000/asyncrun.vim'
 
-" mouse
-Plugin 'nvie/vim-togglemouse'
 
 " 类似ctrl-p
 Plugin 'tacahiroy/ctrlp-funky'
@@ -293,6 +290,11 @@ Plugin 'geekan/source-insight-vim'
 " 删除多余的空格
 " Plugin 'bronson/vim-trailing-whitespace'
 
+" lib
+" Plugin 'vim-scripts/L9'
+
+" Plugin 'altercation/vim-colors-solarized'
+" ~/.vim/vimrc/config/vim-colors-solarized.vim
 " }}}
 
 call vundle#end()" 必须
