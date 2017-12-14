@@ -17,7 +17,7 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 
 " vimrc indent 折叠
-autocmd BufNewFile,BufRead *.vim setlocal foldmethod=indent
+" autocmd BufNewFile,BufRead *.vim setlocal foldmethod=indent
 autocmd BufRead vundle.vim setlocal foldmethod=marker
 
 

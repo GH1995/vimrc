@@ -18,10 +18,10 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " ------  Fold  ------
-autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
-set foldmethod=syntax
-set foldenable
-set foldlevel=2
+" autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
+" set foldmethod=syntax
+" set foldenable
+" set foldlevel=2
 nnoremap <space> za
 vnoremap <space> zf
 
@@ -42,8 +42,8 @@ set ignorecase " 忽略大小写
 " ------  Buffer Navigation ------
 nnoremap <c-c> <c-w>w<c-w><c-c>     " 控制另一个窗口的关闭
 
-nnoremap <c-j> <c-w>j<c-e><c-w>k    " 控制另一个窗口的滚动
-nnoremap <c-k> <c-w>j<c-y><c-w>k
+" nnoremap <c-j> <c-w>o<c-e><c-w>o    " 控制另一个窗口的滚动
+" nnoremap <c-k> <c-w>o<c-y><c-w>o
 
 nnoremap <c-w>o <c-w>w              " 模仿tmux
 nnoremap <c-w><c-o> <c-w>w

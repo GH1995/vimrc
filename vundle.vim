@@ -159,7 +159,7 @@ Plugin 'dhruvasagar/vim-table-mode'
 " ~/.vim/vimrc/config/vim-table-mode.vim
 
 " marker
-Plugin 'kshenoy/vim-signature'
+" Plugin 'kshenoy/vim-signature'
 " ~/.vim/vimrc/config/vim-signature.vim
 
 " Plugin 'vim-scripts/YankRing.vim'
