@@ -40,7 +40,7 @@ set hlsearch
 set ignorecase " 忽略大小写
 
 " ------  Buffer Navigation ------
-nnoremap <c-c> <c-w>w<c-w><c-c>     " 控制另一个窗口的关闭
+nnoremap <c-c> <c-w>j<c-w><c-c>     " 控制另一个窗口的关闭
 
 " nnoremap <c-j> <c-w>o<c-e><c-w>o    " 控制另一个窗口的滚动
 " nnoremap <c-k> <c-w>o<c-y><c-w>o
