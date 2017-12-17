@@ -46,7 +46,7 @@ Plugin 'w0rp/ale'
 Plugin 'Yggdroot/indentLine'
 
 " 高亮当前行
-" Plugin 'miyakogi/conoline.vim'
+Plugin 'miyakogi/conoline.vim'
 " ~/.vim/vimrc/config/conoline.vim
 
 " 折叠
