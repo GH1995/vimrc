@@ -1,6 +1,7 @@
 # DON'T PANIC
 
 @log
+- someplugins is outtime
 - add some plugins for html/css/js without fixed
 - modify the base config
 
