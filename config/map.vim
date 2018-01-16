@@ -1,5 +1,7 @@
 " sv命令source VIMRC文件
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>ev :edit $MYVIMRC<cr>
+
 
 " 保存的快捷键
 nnoremap <leader>= :wa<cr>
@@ -17,7 +19,6 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 
 " vimrc indent 折叠
-" autocmd BufNewFile,BufRead *.vim setlocal foldmethod=indent
 autocmd BufRead vundle.vim setlocal foldmethod=marker
 
 
@@ -28,11 +29,11 @@ autocmd BufRead vundle.vim setlocal foldmethod=marker
 "----------------- Other --------------------"
 
 " Toggle paste mode on and off
-nnoremap <leader>op :setlocal paste!<cr>
+nnoremap <leader>pa :setlocal paste!<cr>
 
 " 翻译
 " pip install ici
-nnoremap <leader>oy :!echo --==<c-r><c-w>==-- ;ici <c-r><c-w><cr>
+nnoremap <leader>fy :!echo --==<c-r><c-w>==-- ;ici <c-r><c-w><cr>
 
 
 
