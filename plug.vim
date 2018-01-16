@@ -128,6 +128,9 @@ Plug 'vimcn/vimcdoc'
 Plug 'mbbill/undotree'
 " ~/.vim/vimrc/config/undotree.vim
 
+" 默认设置
+Plug 'tpope/vim-sensible'
+
 " }}}
 
 "========。。。。。===******===00000=
@@ -183,8 +186,6 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 
 " Plug 'vim-scripts/Vim-Support'
 
-" 默认设置
-Plug 'tpope/vim-sensible'
 
 " 管理会话
 " Plug 'ahri/vim-sesspit'

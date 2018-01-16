@@ -1,6 +1,7 @@
 # DON'T PANIC
 
 @log
+- vundle -> plug, support threads
 - someplugins is outtime
 - add some plugins for html/css/js without fixed
 - modify the base config
@@ -14,7 +15,7 @@ You have to know **nothing**
 **exit vim**: please input `:q<enter>`, don't forget the `:`!
 
 
-### tutorial
+### vim's tutorial
 
 - [engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
 - [chinese](https://coolshell.cn/articles/5426.html)
@@ -27,15 +28,12 @@ You have to know **nothing**
 
 ```
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ln ~/.vim/vimrc/vimrc_real ~/.vimrc
 
-vim +PluginInstall +qall
-
-cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive
-./install.py --clang-completer
-
+vim +PlugInstall +qall
 
 echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
@@ -62,14 +60,13 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
 |          key | use                    |
 |-------------:|:-----------------------|
-| `<leader>op` | set (other) paste      |
-| `<leader>oy` | translate current word |
+| `<leader>pa` | set (other) paste      |
+| `<leader>fy` | translate current word |
 
 |          key | use              |
 |-------------:|:-----------------|
 | `<leader>tb` | TagBartoggle     |
 | `<leader>tm` | TableModeltoggle |
-|       `<F5>` | run python       |
 |         `-+` | save file        |
 
 ### YouCompleteMe
@@ -89,10 +86,14 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
 ### nerdtree
 
-|          key | use             |
-|-------------:|:----------------|
-| `<leader>nt` | nerdtree toggle |
-|         `go` | open file       |
+|          key | use                  |
+|-------------:|:---------------------|
+| `<leader>nt` | nerdtree toggle      |
+|         `go` | preview file         |
+|          `i` | open split           |
+|          `s` | open vsplit          |
+|          `x` | close parent of node |
+|          `r` | refresh cursor dir   |
 
 > If you find some problems, please use `<c-l>`
 
@@ -163,11 +164,12 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
 ### LaTeX
 
-|   key | use      |
-|------:|:---------|
-| `\ll` | compile  |
-| `\lv` | view pdf |
-| `\lc` | clean    |
+|   key | use         |
+|------:|:------------|
+| `\ll` | compile     |
+| `\lv` | view pdf    |
+| `\lc` | clean       |
+| `\lm` | show keymap |
 
 ### Markdown
 
@@ -183,8 +185,31 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 |-------------:|:-------|
 | `<leader>af` | format |
 
+special, you can use `:ClangFormat` to format C++.
+
 ### undotree
 
 |          key | use            |
 |-------------:|:---------------|
 | `<leader>ut` | UndoTreetoggle |
+
+### easy align
+|          key | use |
+|-------------:|:----|
+| `<leader>ea` |     |
+
+### modify data
+|   key | use      |
+|------:|:---------|
+| <c-a> | increase |
+| <c-x> | decrease |
+
+### quick run
+
+|          key | use       |
+|-------------:|:----------|
+| `<leader>qr` | quick run |
+
+### statistics coding time
+
+You need register the account at [Wakatime](https://wakatime.com).
