@@ -20,6 +20,8 @@ You have to know **nothing**
 - [engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
 - [chinese](https://coolshell.cn/articles/5426.html)
 
+My config is used in Linux(vim version>=8.0) which is friendful with Python, $\LaTex$ and C++.
+
 ----
 
 ## install and uninstall
@@ -50,6 +52,9 @@ rm -rf ~/.vim ~/.vimrc
 My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
 ### vimrc
+
+### terminal
+`:term`
 
 |          key | use               |
 |-------------:|:------------------|
