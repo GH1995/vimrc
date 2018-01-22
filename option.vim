@@ -19,9 +19,6 @@ set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " ------  Fold  ------
 autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
-" set foldmethod=syntax
-" set foldenable
-" set foldlevel=2
 nnoremap <space> za
 vnoremap <space> zf
 
@@ -75,7 +72,6 @@ set mat=2
 set helplang=cn,en
 set linebreak
 set textwidth=500
-
 
 set nobackup
 set nowritebackup

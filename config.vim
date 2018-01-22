@@ -1,9 +1,7 @@
 source ~/.vim/vimrc/config/ale.vim
 source ~/.vim/vimrc/config/closetag.vim
-" source ~/.vim/vimrc/config/conoline.vim
 source ~/.vim/vimrc/config/ctrlp.vim
 source ~/.vim/vimrc/config/nerdcommenter.vim
-" source ~/.vim/vimrc/config/rainbow-parentheses.vim
 source ~/.vim/vimrc/config/SimpylFold.vim
 source ~/.vim/vimrc/config/tagbar.vim
 source ~/.vim/vimrc/config/vim-airline.vim
@@ -22,6 +20,5 @@ source ~/.vim/vimrc/config/vim-markdown.vim
 source ~/.vim/vimrc/config/vim-table-mode.vim
 source ~/.vim/vimrc/config/nerdtree.vim
 source ~/.vim/vimrc/config/vim-easy-align.vim
-" source ~/.vim/vimrc/config/vim-colors-solarized.vim
 source ~/.vim/vimrc/config/vim-colorschemes.vim
 source ~/.vim/vimrc/config/vim-repeat.vim
