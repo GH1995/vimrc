@@ -8,8 +8,7 @@ let g:ycm_complete_in_comments = 1
 " 字符串补全
 let g:ycm_complete_in_strings = 1
 
-" let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 " 设置在下面几种格式的文件上屏蔽ycm
 " let g:ycm_filetype_blacklist = {
@@ -28,5 +27,3 @@ highlight YcmWarningLine None
 
 highlight YcmErrorSection None
 highlight YcmWarningSection None
-
-" let g:ycm_allow_changing_updatetime = 0
