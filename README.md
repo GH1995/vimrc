@@ -28,7 +28,18 @@ My config is used in Linux(vim version>=8.0) which is friendful with Python, $\L
 
 **How to install**
 
+```shell
+sudo apt install exuberant-ctags silversearcher-ag
+
+# javascript
+sudo apt-get install nodejs npm
+sudo npm install -g jslint
+sudo npm install jshint -g
+sudo npm install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-html babel-eslint
+
 ```
+
+```shell
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -204,10 +215,10 @@ special, you can use `:ClangFormat` to format C++.
 | `<leader>ea` |     |
 
 ### modify data
-|   key | use      |
-|------:|:---------|
-| <c-a> | increase |
-| <c-x> | decrease |
+|     key | use      |
+|--------:|:---------|
+| `<c-a>` | increase |
+| `<c-x>` | decrease |
 
 ### quick run
 

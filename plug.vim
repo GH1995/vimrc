@@ -180,15 +180,6 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
 
 
-" 启动画面
-" Plug 'mhinz/vim-startify'
-" Plug 'haya14busa/incsearch.vim'
-
-" Plug 'vim-scripts/Vim-Support'
-
-
-" 管理会话
-" Plug 'ahri/vim-sesspit'
 
 " 快速书写html
 Plug 'mattn/emmet-vim'
@@ -265,6 +256,9 @@ Plug 'vim-jp/vim-cpp'
 
 Plug 'octol/vim-cpp-enhanced-highlight'
 
+Plug 'amix/open_file_under_cursor.vim'
+Plug 'michaeljsmith/vim-indent-object'
+
 " }}}
 
 
@@ -299,6 +293,16 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 
 " Plug 'altercation/vim-colors-solarized'
 " ~/.vim/vimrc/config/vim-colors-solarized.vim
+" 启动画面
+" Plug 'mhinz/vim-startify'
+" Plug 'haya14busa/incsearch.vim'
+
+" Plug 'vim-scripts/Vim-Support'
+
+
+" 管理会话
+" Plug 'ahri/vim-sesspit'
+
 " }}}
 
 call plug#end()
