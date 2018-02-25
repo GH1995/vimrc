@@ -1,2 +1,3 @@
 " colorscheme Monokai
-colorscheme desert
+set background=dark
+" colorscheme solarized
