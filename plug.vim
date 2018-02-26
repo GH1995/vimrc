@@ -133,7 +133,7 @@ Plug 'rhysd/vim-clang-format'
 Plug 'mbbill/fencview'
 
 " 配色
-Plug 'flazz/vim-colorschemes'
+" Plug 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
 
 
