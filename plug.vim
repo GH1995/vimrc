@@ -1,11 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
-" stable {{{
-
-" YouCompleteMe
-Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
-" ~/.vim/vimrc/config/youcompleteme.vim
-
+" General {{{
 " ultisnips
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -32,43 +27,22 @@ Plug 'terryma/vim-expand-region'
 " ~/.vim/vimrc/config/vim-expand-region.vim
 
 " 语法检查
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 " ~/.vim/vimrc/config/ale.vim
 
 " 缩进提示线
 Plug 'Yggdroot/indentLine'
 
-" 高亮当前行
-Plug 'miyakogi/conoline.vim'
-" ~/.vim/vimrc/config/conoline.vim
-
-" 折叠
-Plug 'tmhedberg/SimpylFold'
-" ~/.vim/vimrc/config/SimpylFold.vim
-
-" 成对标签补全
-Plug 'docunext/closetag.vim'
-" ~/.vim/vimrc/config/closetag.vim
+" 统计编程时间
+Plug 'wakatime/vim-wakatime'
 
 " 大纲式导航
 Plug 'majutsushi/tagbar'
 " ~/.vim/vimrc/config/tagbar.vim
 
-" 成对标签跳转
-Plug 'vim-scripts/matchit.zip'
-
-" 格式化C++
-Plug 'kana/vim-operator-user'
-Plug 'rhysd/vim-clang-format'
-" :ClangFormat
-
 " 智能注释
 Plug 'scrooloose/nerdcommenter'
 " ~/.vim/vimrc/config/nerdcommenter.vim
-
-" LaTeX
-Plug 'lervag/vimtex'
-" ~/.vim/vimrc/config/vimtex.vim
 
 " Airline 状态栏
 Plug 'vim-airline/vim-airline'
@@ -105,21 +79,13 @@ Plug 'nvie/vim-togglemouse'
 Plug 'thinca/vim-quickrun'
 " ~/.vim/vimrc/config/vim-quickrun.vim
 
-" 统计编程时间
-Plug 'wakatime/vim-wakatime'
-
-" }}}
-
-" stable without config {{{
 " 中文文档
-
 Plug 'vimcn/taglist.vim.cnx'
 Plug 'vimcn/fugitive.cnx'
 Plug 'vimcn/NERD_tree.vim.cnx'
 Plug 'vimcn/ctrlp.cnx'
 Plug 'vimcn/matchit.vim.cnx'
 Plug 'vimcn/NERD_commenter.cnx'
-Plug 'vimcn/syntastic.cnx'
 
 " 中文文档
 Plug 'vimcn/vimcdoc'
@@ -131,9 +97,35 @@ Plug 'mbbill/undotree'
 " 默认设置
 Plug 'tpope/vim-sensible'
 
+Plug 'dhruvasagar/vim-table-mode'
+" ~/.vim/vimrc/config/vim-table-mode.vim
+
 " }}}
 
-"========。。。。。===******===00000=
+" LaTeX {{{
+
+" LaTeX
+Plug 'lervag/vimtex'
+" ~/.vim/vimrc/config/vimtex.vim
+
+" }}}
+
+
+" C++ {{{
+
+" YouCompleteMe
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --system-libclang --js-completer'}
+" ~/.vim/vimrc/config/youcompleteme.vim
+
+" 格式化C++
+Plug 'kana/vim-operator-user'
+Plug 'rhysd/vim-clang-format'
+" :ClangFormat
+
+
+
+" }}}
+
 
 " 测试中的插件 {{{
 
@@ -141,31 +133,13 @@ Plug 'tpope/vim-sensible'
 Plug 'mbbill/fencview'
 
 " 配色
-Plug 'flazz/vim-colorschemes'
+" Plug 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
 
 
 " 多光标操作
 Plug 'terryma/vim-multiple-cursors'
 " ~/.vim/vimrc/config/vim-multiple-cursors.vim
-
-" Git操作
-Plug 'tpope/vim-fugitive'
-" ~/.vim/vimrc/config/vim-fugitive.vim
-
-" 中文排版
-Plug 'hotoo/pangu.vim'
-
-Plug 'dhruvasagar/vim-table-mode'
-" ~/.vim/vimrc/config/vim-table-mode.vim
-
-" marker
-" Plug 'kshenoy/vim-signature'
-" ~/.vim/vimrc/config/vim-signature.vim
-
-" Plug 'vim-scripts/YankRing.vim'
-Plug 'fs111/pydoc.vim'
-
 
 " markdown
 Plug 'godlygeek/tabular'
@@ -180,24 +154,8 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
 
 
-" 启动画面
-" Plug 'mhinz/vim-startify'
-" Plug 'haya14busa/incsearch.vim'
-
-" Plug 'vim-scripts/Vim-Support'
-
-
-" 管理会话
-" Plug 'ahri/vim-sesspit'
-
-" 快速书写html
-Plug 'mattn/emmet-vim'
-Plug 'othree/html5.vim'
-
-
 "
 Plug 'Shougo/unite.vim'
-
 
 Plug 'ntpeters/vim-better-whitespace'
 
@@ -205,7 +163,6 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'wannesm/wmgraphviz.vim'
 
 Plug 'skywind3000/asyncrun.vim'
-
 
 " 类似ctrl-p
 Plug 'tacahiroy/ctrlp-funky'
@@ -243,9 +200,6 @@ Plug 'christoomey/vim-sort-motion'
 " css3语法高亮
 Plug 'hail2u/vim-css3-syntax'
 
-" JS语法高亮
-Plug 'pangloss/vim-javascript'
-
 " 一些javascript library的语法高亮
 Plug 'othree/javascript-libraries-syntax.vim'
 
@@ -258,47 +212,46 @@ Plug 'heavenshell/vim-jsdoc'
 " Fileencoding detect
 Plug 's3rvac/AutoFenc'
 
-Plug 'geekan/source-insight-vim'
+" Plug 'geekan/source-insight-vim'
 Plug 'tpope/vim-abolish'
 " Plug 'vim-utils/vim-man'
 Plug 'vim-jp/vim-cpp'
 
 Plug 'octol/vim-cpp-enhanced-highlight'
 
+Plug 'amix/open_file_under_cursor.vim'
+Plug 'michaeljsmith/vim-indent-object'
+
+Plug 'jiangmiao/auto-pairs'
+Plug 'dawikur/algorithm-mnemonics.vim'
+
+Plug 'freitass/todo.txt-vim'
+
+Plug 'aserebryakov/vim-todo-lists'
+
 " }}}
 
+" javascript {{{
+Plug 'pangloss/vim-javascript'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'nono/jquery.vim'
+Plug 'isruslan/vim-es6'
+Plug 'joegesualdo/jsdoc.vim'
+" }}}
 
-"========。。。。。===******===00000=
+" HTML {{{
 
-" 废弃的插件 {{{
+" 成对标签补全
+Plug 'docunext/closetag.vim'
+" ~/.vim/vimrc/config/closetag.vim
 
-" 解决<C-W>O的问题
-" Plug 'itspriddle/ZoomWin'
+" 成对标签跳转
+Plug 'vim-scripts/matchit.zip'
 
-" Plug 'vim-syntastic/syntastic'
+" 快速书写html
+Plug 'mattn/emmet-vim'
+Plug 'othree/html5.vim'
 
-" TMUX
-" Plug 'christoomey/vim-tmux-navigator'
-
-" Plug 'Shougo/denite.nvim'
-" Plug 'majutsushi/tagbar'
-" Plug 'vim-ctrlspace/vim-ctrlspace'
-" Plug 'jreybert/vimagit'
-" Plug 'jmcantrell/vim-virtualenv'
-" Plug 'airblade/vim-gitgutter'
-" Plug 'pthrasher/conqueterm-vim'
-" Plug 'easymotion/vim-easymotion'
-"Plug 'hdima/python-syntax'
-" 文件时光机 Plug 'sjl/gundo.vim'
-
-" 删除多余的空格
-" Plug 'bronson/vim-trailing-whitespace'
-
-" lib
-" Plug 'vim-scripts/L9'
-
-" Plug 'altercation/vim-colors-solarized'
-" ~/.vim/vimrc/config/vim-colors-solarized.vim
 " }}}
 
 call plug#end()
