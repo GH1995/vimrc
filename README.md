@@ -210,6 +210,7 @@ special, you can use `:ClangFormat` to format C++.
 | `<leader>ut` | UndoTreetoggle |
 
 ### easy align
+
 |          key | use |
 |-------------:|:----|
 | `<leader>ea` |     |
