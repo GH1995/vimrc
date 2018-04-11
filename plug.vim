@@ -114,7 +114,7 @@ Plug 'lervag/vimtex'
 " C++ {{{
 
 " YouCompleteMe
-Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --system-libclang --js-completer'}
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --js-completer'}
 " ~/.vim/vimrc/config/youcompleteme.vim
 
 " 格式化C++
