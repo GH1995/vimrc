@@ -166,7 +166,7 @@ Plug 'wannesm/wmgraphviz.vim'
 Plug 'skywind3000/asyncrun.vim'
 
 " 类似ctrl-p
-Plug 'tacahiroy/ctrlp-funky'
+" Plug 'tacahiroy/ctrlp-funky'
 " ~/.vim/vimrc/config/ctrlp-funky.vim
 
 " 提供快速grep功能
