@@ -17,8 +17,8 @@ You have to know **nothing**
 
 ### vim's tutorial
 
-- [engish](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
-- [chinese](https://coolshell.cn/articles/5426.html)
+- [engish tutorial](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
+- [中文教程](https://coolshell.cn/articles/5426.html)
 
 My config is used in Linux(vim version>=8.0) which is friendful with Python, $\LaTeX$ and C++.
 
@@ -27,17 +27,6 @@ My config is used in Linux(vim version>=8.0) which is friendful with Python, $\L
 ## install and uninstall
 
 **How to install**
-
-```shell
-sudo apt install exuberant-ctags silversearcher-ag
-
-# javascript
-sudo apt-get install nodejs npm
-sudo npm install -g jslint
-sudo npm install jshint -g
-sudo npm install -g eslint eslint-plugin-standard eslint-plugin-promise eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-html babel-eslint
-
-```
 
 ```shell
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
@@ -50,7 +39,6 @@ vim +PlugInstall +qall
 
 echo "(๑•̀ㅂ•́)و ~~~ ✧Biu Biu Biu ~~~ _(:_」∠)_ "
 ```
-
 
 **How to uninstall**
 
@@ -65,6 +53,7 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 ### vimrc
 
 ### terminal
+
 `:term`
 
 |          key | use               |
@@ -226,7 +215,3 @@ special, you can use `:ClangFormat` to format C++.
 |          key | use       |
 |-------------:|:----------|
 | `<leader>qr` | quick run |
-
-### statistics coding time
-
-You need register the account at [Wakatime](https://wakatime.com).
