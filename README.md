@@ -1,5 +1,30 @@
 # DON'T PANIC
 
+* [DON'T PANIC](#dont-panic)
+   * [How to use vim](#how-to-use-vim)
+      * [you must be alive](#you-must-be-alive)
+      * [vim's tutorial](#vims-tutorial)
+   * [install and uninstall](#install-and-uninstall)
+   * [How to use the config](#how-to-use-the-config)
+      * [vimrc](#vimrc)
+      * [terminal](#terminal)
+      * [other config](#other-config)
+      * [YouCompleteMe](#youcompleteme)
+      * [ultisnips](#ultisnips)
+      * [nerdtree](#nerdtree)
+      * [ctrlp](#ctrlp)
+      * [surround](#surround)
+      * [vim expand region](#vim-expand-region)
+      * [ale: Asynchronous Lint Engine](#ale-asynchronous-lint-engine)
+      * [comments](#comments)
+      * [LaTeX](#latex)
+      * [Markdown](#markdown)
+      * [autoformat](#autoformat)
+      * [undotree](#undotree)
+      * [easy align](#easy-align)
+      * [modify data](#modify-data)
+      * [quick run](#quick-run)
+
 @log
 - vundle -> plug, support threads
 - someplugins is outtime
@@ -103,6 +128,7 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 > If you find some problems, please use `<c-l>`
 
 ### ctrlp
+
 |     key | use              |
 |--------:|:-----------------|
 | `<c-p>` | show file buffer |
@@ -205,6 +231,7 @@ special, you can use `:ClangFormat` to format C++.
 | `<leader>ea` |     |
 
 ### modify data
+
 |     key | use      |
 |--------:|:---------|
 | `<c-a>` | increase |
@@ -215,3 +242,4 @@ special, you can use `:ClangFormat` to format C++.
 |          key | use       |
 |-------------:|:----------|
 | `<leader>qr` | quick run |
+
