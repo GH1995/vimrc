@@ -1,12 +1,15 @@
 " 测试中的插件 {{{
 
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh'  }
+
+
 " 文件编码
 Plug 'mbbill/fencview'
 
 " 配色
 " Plug 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
-
+Plug 'liuchengxu/space-vim-dark'
 
 " 多光标操作
 Plug 'terryma/vim-multiple-cursors'
@@ -23,7 +26,6 @@ Plug 'vim-scripts/winmanager'
 " 快速的写注释
 Plug 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
-
 
 "
 Plug 'Shougo/unite.vim'

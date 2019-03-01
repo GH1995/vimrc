@@ -1,3 +1,4 @@
 " colorscheme Monokai
-set background=dark
+" set background=dark
 " colorscheme solarized
+colorscheme space-vim-dark

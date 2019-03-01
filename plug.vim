@@ -27,7 +27,7 @@ Plug 'terryma/vim-expand-region'
 " ~/.vim/vimrc/config/vim-expand-region.vim
 
 " 语法检查
-" Plug 'w0rp/ale'
+Plug 'w0rp/ale'
 " ~/.vim/vimrc/config/ale.vim
 
 " 缩进提示线
@@ -63,6 +63,7 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'junegunn/vim-easy-align'
 " ~/.vim/vimrc/config/vim-easy-align.vim
 
+" tab
 Plug 'ervandew/supertab'
 
 " 针对日期<c-a> <c-x>

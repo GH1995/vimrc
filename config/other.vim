@@ -28,3 +28,5 @@ au ColorScheme * hi Error NONE
 au ColorScheme * hi ErrorMsg NONE
 au GuiEnter * hi Error NONE
 au GuiEnter * hi ErrorMsg NONE
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

@@ -5,7 +5,6 @@ source ~/.vim/vimrc/config/nerdcommenter.vim
 source ~/.vim/vimrc/config/SimpylFold.vim
 source ~/.vim/vimrc/config/tagbar.vim
 source ~/.vim/vimrc/config/vim-airline.vim
-" source ~/.vim/vimrc/config/vim-airline-themes.vim
 source ~/.vim/vimrc/config/vim-autopep8.vim
 source ~/.vim/vimrc/config/vim-expand-region.vim
 source ~/.vim/vimrc/config/vim-flavored-Markdown.vim
