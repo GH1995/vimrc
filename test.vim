@@ -1,6 +1,16 @@
 " 测试中的插件 {{{
 
+Plug 'mhinz/vim-startify'
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh'  }
+Plug 'skywind3000/vim-keysound'
+" Plug 'ryanoasis/vim-devicons'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'rhysd/github-complete.vim'
+Plug 'junegunn/gv.vim'
+Plug 'terryma/vim-smooth-scroll'
+Plug 'junegunn/vim-slash'
+
 
 
 " 文件编码

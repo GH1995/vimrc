@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
+source ~/.vim/vimrc/test.vim
+
 " General {{{
 " ultisnips
 Plug 'SirVer/ultisnips'
@@ -123,6 +125,5 @@ Plug 'rhysd/vim-clang-format'
 
 " }}}
 
-source ~/.vim/vimrc/test.vim
 
 call plug#end()
