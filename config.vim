@@ -21,3 +21,4 @@ source ~/.vim/vimrc/config/nerdtree.vim
 source ~/.vim/vimrc/config/vim-easy-align.vim
 source ~/.vim/vimrc/config/vim-colorschemes.vim
 source ~/.vim/vimrc/config/vim-repeat.vim
+source ~/.vim/vimrc/config/vim-startify.vim

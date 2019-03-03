@@ -13,7 +13,7 @@ Plug 'scrooloose/nerdtree'
 " ~/.vim/vimrc/config/nerdtree.vim
 
 " CtrlP
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 " ~/.vim/vimrc/config/ctrlp.vim
 
 " surround

@@ -19,7 +19,7 @@ endfunc
 
 " 实验
 autocmd FileType python set foldmethod=indent
-autocmd FileType cpp set keywordprg=cppman
+" autocmd FileType cpp set keywordprg=cppman
 
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
