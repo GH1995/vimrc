@@ -5,7 +5,7 @@ nnoremap <leader>ev :edit $MYVIMRC<cr>
 
 " 保存的快捷键
 nnoremap <leader>= :wa<cr>
-nnoremap zz zz:wa<cr>
+" nnoremap zz zz:wa<cr>
 
 
 " 解决搜索后的高亮问题

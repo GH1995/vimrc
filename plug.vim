@@ -11,6 +11,9 @@ Plug 'honza/vim-snippets'
 " 目录树
 Plug 'scrooloose/nerdtree'
 " ~/.vim/vimrc/config/nerdtree.vim
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " CtrlP
 " Plug 'ctrlpvim/ctrlp.vim'
@@ -123,6 +126,45 @@ Plug 'kana/vim-operator-user'
 Plug 'rhysd/vim-clang-format'
 " :ClangFormat
 
+" }}}
+
+" {{{
+
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh'  }
+" ~/.vim/vimrc/config/leaderF.vim
+
+" / 取消高亮
+Plug 'junegunn/vim-slash'
+
+" 文件编码
+Plug 'mbbill/fencview'
+
+" 配色
+" Plug 'flazz/vim-colorschemes'
+" ~/.vim/vimrc/config/vim-colorschemes.vim
+Plug 'liuchengxu/space-vim-dark'
+
+" 多光标操作
+Plug 'terryma/vim-multiple-cursors'
+" ~/.vim/vimrc/config/vim-multiple-cursors.vim
+
+" markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+" ~/.vim/vimrc/config/vim-markdown.vim
+
+" 画图
+Plug 'vim-scripts/winmanager'
+
+" 快速的写注释
+Plug 'vim-scripts/DoxygenToolkit.vim'
+" ~/.vim/vimrc/config/DoxygenToolkit.vim
+
+" 高亮空格
+Plug 'ntpeters/vim-better-whitespace'
+
+" Graphviz
+Plug 'wannesm/wmgraphviz.vim'
 " }}}
 
 

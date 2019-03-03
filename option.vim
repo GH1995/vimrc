@@ -53,7 +53,7 @@ nnoremap j gj
 nnoremap k gk
 
 " -------  Unclassified  ------
-inoremap jk <esc>
+" inoremap jk <esc>
 set autochdir
 set clipboard=unnamed
 let autosave=5      " 5秒自动保存一次
