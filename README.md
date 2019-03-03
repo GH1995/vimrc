@@ -12,7 +12,6 @@
       * [YouCompleteMe](#youcompleteme)
       * [ultisnips](#ultisnips)
       * [nerdtree](#nerdtree)
-      * [ctrlp](#ctrlp)
       * [surround](#surround)
       * [vim expand region](#vim-expand-region)
       * [ale: Asynchronous Lint Engine](#ale-asynchronous-lint-engine)
@@ -126,12 +125,6 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 |          `r` | refresh cursor dir   |
 
 > If you find some problems, please use `<c-l>`
-
-### ctrlp
-
-|     key | use              |
-|--------:|:-----------------|
-| `<c-p>` | show file buffer |
 
 ### surround
 
