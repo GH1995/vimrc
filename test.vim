@@ -1,5 +1,7 @@
 " 测试中的插件 {{{
 
+Plug 'rhysd/accelerated-jk'
+
 Plug 'gauteh/vim-cppman'
 
 Plug 'mhinz/vim-startify'
