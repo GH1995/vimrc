@@ -1,5 +1,12 @@
 " 测试中的插件 {{{
 
+Plug 'LucHermitte/lh-vim-lib'
+Plug 'LucHermitte/lh-tags'
+Plug 'LucHermitte/lh-dev'
+Plug 'LucHermitte/lh-style'
+Plug 'LucHermitte/lh-brackets'
+Plug 'LucHermitte/vim-refactor'
+
 Plug 'rhysd/accelerated-jk'
 
 Plug 'gauteh/vim-cppman'
@@ -45,7 +52,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'alvan/vim-closetag'
 
 " 快速交换函数参数位置
-Plug 'machakann/vim-swap'
+" Plug 'machakann/vim-swap'
 
 " 快速排序
 Plug 'christoomey/vim-sort-motion'
