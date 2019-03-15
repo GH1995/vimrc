@@ -1,5 +1,7 @@
 " 测试中的插件 {{{
 
+Plug 'iandingx/leetcode.vim'
+
 Plug 'LucHermitte/lh-vim-lib'
 Plug 'LucHermitte/lh-tags'
 Plug 'LucHermitte/lh-dev'
