@@ -161,7 +161,7 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 " ~/.vim/vimrc/config/DoxygenToolkit.vim
 
 " 高亮空格
-Plug 'ntpeters/vim-better-whitespace'
+" Plug 'ntpeters/vim-better-whitespace'
 
 " Graphviz
 Plug 'wannesm/wmgraphviz.vim'

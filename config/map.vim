@@ -54,3 +54,7 @@ nnoremap <leader>sf :set foldlevel=99<cr>
 
 " 尝试切换输入法
 set noimdisable
+
+" 加速
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
