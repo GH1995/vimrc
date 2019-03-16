@@ -3,12 +3,12 @@
 
 " Put this in your vimrc:
 " >
-    autocmd VimEnter *
-                \   if !argc()
-                \ |   Startify
-                \ |   NERDTree
-                \ |   wincmd w
-                \ | endif
+    " autocmd VimEnter *
+                " \   if !argc()
+                " \ |   Startify
+                " \ |   NERDTree
+                " \ |   wincmd w
+                " \ | endif
 
 " How to disable random quotes header?~
 " >

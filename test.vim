@@ -1,6 +1,14 @@
 " 测试中的插件 {{{
 
+Plug 'ianva/vim-youdao-translater'
+
+Plug 'liuchengxu/vim-which-key'
+
+" language-packs
+Plug 'sheerun/vim-polyglot'
+
 Plug 'iandingx/leetcode.vim'
+" ~/.vim/vimrc/config/leetcode.vim
 
 Plug 'LucHermitte/lh-vim-lib'
 Plug 'LucHermitte/lh-tags'
