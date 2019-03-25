@@ -1,0 +1,155 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-T>	config/vim-youdao-translater.vim	/^nnoremap <silent> <C-T> :<C-u>Ydc<CR>$/;"	m
+<C-T>	config/vim-youdao-translater.vim	/^vnoremap <silent> <C-T> :<C-u>Ydv<CR>$/;"	m
+<C-e>	config/map.vim	/^inoremap <C-e> <End>$/;"	m
+<Leader><Leader>j	config/vim-easymotion.vim	/^map <Leader><Leader>j <Plug>(easymotion-j)$/;"	m
+<Leader><Leader>k	config/vim-easymotion.vim	/^map <Leader><Leader>k <Plug>(easymotion-k)$/;"	m
+<Leader><leader>.	config/vim-easymotion.vim	/^map <Leader><leader>. <Plug>(easymotion-repeat)$/;"	m
+<Leader><leader>h	config/vim-easymotion.vim	/^map <Leader><leader>h <Plug>(easymotion-linebackward)$/;"	m
+<Leader><leader>l	config/vim-easymotion.vim	/^map <Leader><leader>l <Plug>(easymotion-lineforward)$/;"	m
+<c-c>	config/map.vim	/^nnoremap <c-c> <c-w>j<c-w><c-c>     " 控制另一个窗口的关闭$/;"	m
+<c-w><c-o>	config/map.vim	/^nnoremap <c-w><c-o> <c-w>w$/;"	m
+<c-w>o	config/map.vim	/^nnoremap <c-w>o <c-w>w              " 模仿tmux$/;"	m
+<leader>	config/vim-which-key.vim	/^nnoremap <silent> <leader> :WhichKey '<Space>'<CR>$/;"	m
+<leader>=	config/map.vim	/^nnoremap <leader>= :wa<cr>$/;"	m
+<leader>af	config/map.vim	/^nnoremap <leader>af :Autoformat<cr>$/;"	m
+<leader>af	config/vim-autoformat.vim	/^nnoremap <leader>af :Autoformat<cr>$/;"	m
+<leader>ale	config/ale.vim	/^nnoremap <leader>ale :ALEToggle<cr>$/;"	m
+<leader>cP	config/ctrlp-funky.vim	/^nnoremap <leader>cP :execute 'CtrlPFunky' . expand('<cword>')<cr>$/;"	m
+<leader>cp	config/ctrlp-funky.vim	/^nnoremap <leader>cp :CtrlPFunky<cr>$/;"	m
+<leader>d	config/youcompleteme.vim	/^nnoremap <leader>d  :YcmCompleter GetDoc<CR>$/;"	m
+<leader>ea	config/vim-easy-align.vim	/^nmap <leader>ea <Plug>(EasyAlign)$/;"	m
+<leader>ea	config/vim-easy-align.vim	/^vmap <leader>ea <Plug>(EasyAlign)$/;"	m
+<leader>ev	config/map.vim	/^nnoremap <leader>ev :edit $MYVIMRC<cr>$/;"	m
+<leader>fd	config/vim-which-key.vim	/^nnoremap <silent> <leader>fd :e $MYVIMRC<CR>$/;"	m
+<leader>ff	config/map.vim	/^nnoremap <leader>ff :set fileformat=unix<cr>$/;"	m
+<leader>fs	config/vim-which-key.vim	/^nnoremap <silent> <leader>fs :update<CR>$/;"	m
+<leader>fy	config/map.vim	/^nnoremap <leader>fy :!echo --==<c-r><c-w>==-- ;ici <c-r><c-w><cr>$/;"	m
+<leader>g	config/youcompleteme.vim	/^nnoremap <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>$/;"	m
+<leader>nt	config/nerdtree.vim	/^nnoremap <leader>nt :NERDTreeToggle<cr>$/;"	m
+<leader>ol	config/vim-which-key.vim	/^nnoremap <silent> <leader>ol  :lopen<CR>$/;"	m
+<leader>oq	config/vim-which-key.vim	/^nnoremap <silent> <leader>oq  :copen<CR>$/;"	m
+<leader>pa	config/map.vim	/^nnoremap <leader>pa :setlocal paste!<cr>$/;"	m
+<leader>qr	config/vim-quickrun.vim	/^nnoremap <leader>qr :QuickRun<CR>$/;"	m
+<leader>sf	config/map.vim	/^nnoremap <leader>sf :set foldlevel=99<cr>$/;"	m
+<leader>sv	config/map.vim	/^nnoremap <leader>sv :source $MYVIMRC<cr>$/;"	m
+<leader>tb	config/tagbar.vim	/^nmap <leader>tb :TagbarToggle<CR>$/;"	m
+<leader>tf	config/vim-markdown.vim	/^nnoremap <leader>tf :TableFormat<cr>$/;"	m
+<leader>tm	config/vim-table-mode.vim	/^nnoremap <leader>tm :TableModeToggle<cr>$/;"	m
+<leader>ut	config/undotree.vim	/^nnoremap <leader>ut :UndotreeToggle<cr>$/;"	m
+<localleader>	config/vim-which-key.vim	/^nnoremap <silent> <localleader> :WhichKey ','<CR>$/;"	m
+<space>	config/map.vim	/^nnoremap <space> za$/;"	m
+<space>	config/map.vim	/^vnoremap <space> zf$/;"	m
+F	config/vim-sneak.vim	/^map F <Plug>Sneak_F$/;"	m
+N	config/map.vim	/^nnoremap N :nohl<cr>$/;"	m
+SetFileHead	config/other.vim	/^function! SetFileHead()$/;"	f
+T	config/vim-sneak.vim	/^map T <Plug>Sneak_T$/;"	m
+V	config/vim-expand-region.vim	/^vmap V <Plug>(expand_region_shrink)$/;"	m
+W	config/map.vim	/^command! W w !sudo tee % > \/dev\/null$/;"	c
+[a	config/ale.vim	/^nnoremap <silent> [a <Plug>(ale_previous_wrap)$/;"	m
+]a	config/ale.vim	/^nnoremap <silent> ]a <Plug>(ale_next_wrap)$/;"	m
+f	config/vim-sneak.vim	/^map f <Plug>Sneak_f$/;"	m
+g:EasyMotion_smartcase	config/vim-easymotion.vim	/^let g:EasyMotion_smartcase = 1$/;"	v
+g:Lf_ShortcutF	config/leaderF.vim	/^let g:Lf_ShortcutF = '<C-P>'$/;"	v
+g:NERDSpaceDelims	config/nerdcommenter.vim	/^let g:NERDSpaceDelims = 1$/;"	v
+g:Powerline_symbols	config/vim-powerline.vim	/^let g:Powerline_symbols = 'fancy'$/;"	v
+g:SimpylFold_docstring_preview	config/SimpylFold.vim	/^let g:SimpylFold_docstring_preview = 1$/;"	v
+g:SimpylFold_docstring_preview	config/simpyfold.vim	/^let g:SimpylFold_docstring_preview=1$/;"	v
+g:UltiSnipsExpandTrigger	config/ultisnips.vim	/^let g:UltiSnipsExpandTrigger="<c-b>"$/;"	v
+g:UltiSnipsJumpBackwardTrigger	config/ultisnips.vim	/^let g:UltiSnipsJumpBackwardTrigger="<c-z>"$/;"	v
+g:UltiSnipsJumpForwardTrigger	config/ultisnips.vim	/^let g:UltiSnipsJumpForwardTrigger="<c-b>"$/;"	v
+g:airline#extensions#ale#enabled	config/ale.vim	/^let g:airline#extensions#ale#enabled = 1$/;"	v
+g:airline_powerline_fonts	config/vim-airline-themes.vim	/^let g:airline_powerline_fonts=1$/;"	v
+g:airline_powerline_fonts	config/vim-airline.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_theme	config/vim-airline-themes.vim	/^let g:airline_theme='ayu_mirage'$/;"	v
+g:airline_theme	config/vim-airline.vim	/^let g:airline_theme='lucius'$/;"	v
+g:ale_completion_enabled	config/ale.vim	/^let g:ale_completion_enabled = 1$/;"	v
+g:ale_lint_on_enter	config/ale.vim	/^let g:ale_lint_on_enter = 0$/;"	v
+g:ale_lint_on_text_changed	config/ale.vim	/^let g:ale_lint_on_text_changed = 'never'$/;"	v
+g:ale_set_highlights	config/ale.vim	/^let g:ale_set_highlights = 0$/;"	v
+g:auto_save	config/vim-autosave.vim	/^let g:auto_save = 1  " enable AutoSave on Vim startup$/;"	v
+g:auto_save_events	config/vim-autosave.vim	/^let g:auto_save_events = ["InsertLeave", "TextChanged"]$/;"	v
+g:autopep8_disable_show_diff	config/vim-autopep8.vim	/^let g:autopep8_disable_show_diff=1$/;"	v
+g:closetag_html_style	config/closetag.vim	/^let g:closetag_html_style=1$/;"	v
+g:cpp_class_decl_highlight	config/vim-cpp-enhanced-highlight.vim	/^let g:cpp_class_decl_highlight = 1$/;"	v
+g:cpp_class_scope_highlight	config/vim-cpp-enhanced-highlight.vim	/^let g:cpp_class_scope_highlight = 1$/;"	v
+g:cpp_concepts_highlight	config/vim-cpp-enhanced-highlight.vim	/^let g:cpp_concepts_highlight = 1$/;"	v
+g:cpp_member_variable_highlight	config/vim-cpp-enhanced-highlight.vim	/^let g:cpp_member_variable_highlight = 1$/;"	v
+g:ctrlp_custom_ignore	config/ctrlp.vim	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\\.(git|hg|svn)$'$/;"	v
+g:ctrlp_custom_ignore	config/ctrlp.vim	/^let g:ctrlp_custom_ignore = {$/;"	v
+g:ctrlp_funky_matchtype	config/ctrlp-funky.vim	/^let g:ctrlp_funky_matchtype = 'path'$/;"	v
+g:ctrlp_working_path_mode	config/ctrlp.vim	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:indentLine_char	config/indentLine.vim	/^let g:indentLine_char='┆'$/;"	v
+g:indentLine_enabled	config/indentLine.vim	/^let g:indentLine_enabled = 1$/;"	v
+g:indent_guides_guide_size	config/vim-indent-guides.vim	/^let g:indent_guides_guide_size=1$/;"	v
+g:leetcode_password	config/leetcode.vim	/^let g:leetcode_password="YusBJOkusH89"$/;"	v
+g:leetcode_username	config/leetcode.vim	/^let g:leetcode_username="tulingjiaoyu@outlook.com"$/;"	v
+g:limelight_conceal_ctermfg	config/goyo.vim	/^let g:limelight_conceal_ctermfg = 'gray'$/;"	v
+g:limelight_conceal_ctermfg	config/goyo.vim	/^let g:limelight_conceal_ctermfg = 240$/;"	v
+g:limelight_conceal_guifg	config/goyo.vim	/^let g:limelight_conceal_guifg = '#777777'$/;"	v
+g:limelight_conceal_guifg	config/goyo.vim	/^let g:limelight_conceal_guifg = 'DarkGray'$/;"	v
+g:mapleader	config/vim-which-key.vim	/^let g:mapleader = "\\<Space>"$/;"	v
+g:maplocalleader	config/vim-which-key.vim	/^let g:maplocalleader = ","$/;"	v
+g:quickrun_config	config/vim-quickrun.vim	/^let g:quickrun_config = {$/;"	v
+g:quickrun_config	config/vim-quickrun.vim	/^let g:quickrun_config.cpp = {$/;"	v
+g:quickrun_no_default_key_mappings	config/vim-quickrun.vim	/^let g:quickrun_no_default_key_mappings = 1$/;"	v
+g:rbpt_loadcmd_toggle	config/rainbow-parentheses.vim	/^let g:rbpt_loadcmd_toggle = 0$/;"	v
+g:rbpt_max	config/rainbow-parentheses.vim	/^let g:rbpt_max = 16$/;"	v
+g:sneak#label	config/vim-sneak.vim	/^let g:sneak#label = 1$/;"	v
+g:solarized_termcolors	config/solarized.vim	/^let g:solarized_termcolors=256$/;"	v
+g:startify_custom_header	config/vim-startify.vim	/^    let g:startify_custom_header = []$/;"	v
+g:syntastic_cpp_compiler	config/other.vim	/^let g:syntastic_cpp_compiler = 'clang++'$/;"	v
+g:syntastic_cpp_compiler_options	config/other.vim	/^let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'$/;"	v
+g:table_mode_corner	config/vim-table-mode.vim	/^let g:table_mode_corner='|'$/;"	v
+g:tagbar_autofocus	config/tagbar.vim	/^let g:tagbar_autofocus = 0$/;"	v
+g:tagbar_width	config/tagbar.vim	/^let g:tagbar_width = 25 " 设置tagbar的宽度为30列，默认40$/;"	v
+g:tex_conceal	config/vimtex.vim	/^let g:tex_conceal = ''$/;"	v
+g:tex_flavor	config/vimtex.vim	/^let g:tex_flavor='latex'$/;"	v
+g:tex_indent_items	config/vimtex.vim	/^let g:tex_indent_items=0$/;"	v
+g:vimrc_author	config/AuthorInfo.vim	/^let g:vimrc_author='Guan Hua'$/;"	v
+g:vimrc_email	config/AuthorInfo.vim	/^let g:vimrc_email='tulingjiaoyu@126.com'$/;"	v
+g:vimrc_homepage	config/AuthorInfo.vim	/^let g:vimrc_homepage='http:\/\/www.forguan.com'$/;"	v
+g:vimtex_compiler_latexmk	config/vimtex.vim	/^let g:vimtex_compiler_latexmk = { 'callback' : 0, 'continuous' : 0, }$/;"	v
+g:vimtex_complete_img_use_tail	config/vimtex.vim	/^let g:vimtex_complete_img_use_tail = 1$/;"	v
+g:vimtex_enabled	config/vimtex.vim	/^let g:vimtex_enabled=1$/;"	v
+g:vimtex_fold_enabled	config/vimtex.vim	/^let g:vimtex_fold_enabled = 1$/;"	v
+g:vimtex_format_enabled	config/vimtex.vim	/^let g:vimtex_format_enabled = 1$/;"	v
+g:vimtex_format_enabled	config/vimtex.vim	/^let g:vimtex_format_enabled=1$/;"	v
+g:vimtex_indent_enabled	config/vimtex.vim	/^let g:vimtex_indent_enabled=0$/;"	v
+g:vimtex_index_split_pos	config/vimtex.vim	/^let g:vimtex_index_split_pos = 'below'$/;"	v
+g:vimtex_latexmk_options	config/vimtex.vim	/^let g:vimtex_latexmk_options ='-pdflatex="xelatex -shell-escape -synctex=1 -src-specials -interaction=nonstopmode $*"'$/;"	v
+g:vimtex_quickfix_open_on_warning	config/vimtex.vim	/^let g:vimtex_quickfix_open_on_warning = 0$/;"	v
+g:vimtex_toc_fold	config/vimtex.vim	/^let g:vimtex_toc_fold = 1$/;"	v
+g:vimtex_view_automatic	config/vimtex.vim	/^let g:vimtex_view_automatic = 0$/;"	v
+g:vimtex_view_forward_search_on_start	config/vimtex.vim	/^let g:vimtex_view_forward_search_on_start = 0$/;"	v
+g:which_key_map	config/vim-which-key.vim	/^let g:which_key_map = {}$/;"	v
+g:which_key_map	config/vim-which-key.vim	/^let g:which_key_map.f = { 'name' : '+file' }$/;"	v
+g:which_key_map	config/vim-which-key.vim	/^let g:which_key_map.f.d = 'open-vimrc'$/;"	v
+g:which_key_map	config/vim-which-key.vim	/^let g:which_key_map.o = {$/;"	v
+g:ycm_allow_changing_updatetime	config/youcompleteme.vim	/^let g:ycm_allow_changing_updatetime = 0$/;"	v
+g:ycm_cache_omnifunc	config/youcompleteme.vim	/^let g:ycm_cache_omnifunc=0$/;"	v
+g:ycm_collect_identifiers_from_comments_and_strings	config/youcompleteme.vim	/^let g:ycm_collect_identifiers_from_comments_and_strings = 1$/;"	v
+g:ycm_complete_in_comments	config/youcompleteme.vim	/^let g:ycm_complete_in_comments = 1$/;"	v
+g:ycm_complete_in_strings	config/youcompleteme.vim	/^let g:ycm_complete_in_strings = 1$/;"	v
+g:ycm_enable_diagnostic_highlighting	config/youcompleteme.vim	/^let g:ycm_enable_diagnostic_highlighting = 0$/;"	v
+g:ycm_enable_diagnostic_signs	config/youcompleteme.vim	/^let g:ycm_enable_diagnostic_signs = 0$/;"	v
+g:ycm_filetype_blacklist	config/youcompleteme.vim	/^let g:ycm_filetype_blacklist = {$/;"	v
+g:ycm_global_ycm_extra_conf	config/youcompleteme.vim	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/plugged\/YouCompleteMe\/third_party\/ycmd\/.ycm_extra_conf.py'$/;"	v
+g:ycm_seed_identifiers_with_syntax	config/youcompleteme.vim	/^let g:ycm_seed_identifiers_with_syntax = 1$/;"	v
+g:ycm_semantic_triggers	config/vimtex.vim	/^	let g:ycm_semantic_triggers = {}$/;"	v
+g:ycm_semantic_triggers	config/vimtex.vim	/^let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme$/;"	v
+g:ycm_show_diagnostics_ui	config/youcompleteme.vim	/^let g:ycm_show_diagnostics_ui = 0$/;"	v
+gf	config/map.vim	/^nnoremap gf :e <cfile><cr>$/;"	m
+j	config/map.vim	/^nmap j <Plug>(accelerated_jk_gj)$/;"	m
+j	config/map.vim	/^nnoremap j gj$/;"	m
+k	config/map.vim	/^nmap k <Plug>(accelerated_jk_gk)$/;"	m
+k	config/map.vim	/^nnoremap k gk$/;"	m
+mapleader	lab.vim	/^let mapleader='-'$/;"	v
+markdown	config/vim-flavored-Markdown.vim	/^augroup markdown$/;"	a
+t	config/vim-sneak.vim	/^map t <Plug>Sneak_t$/;"	m
+v	config/vim-expand-region.vim	/^vmap v <Plug>(expand_region_expand)$/;"	m
