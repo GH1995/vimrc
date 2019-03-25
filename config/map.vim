@@ -22,7 +22,23 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 " vimrc indent 折叠
 autocmd BufRead vundle.vim setlocal foldmethod=marker
 
+" ------  Fold  ------
+autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
+nnoremap <space> za
+vnoremap <space> zf
 
+" ------  Buffer Navigation ------
+nnoremap <c-c> <c-w>j<c-w><c-c>     " 控制另一个窗口的关闭
+
+" nnoremap <c-j> <c-w>o<c-e><c-w>o    " 控制另一个窗口的滚动
+" nnoremap <c-k> <c-w>o<c-y><c-w>o
+
+nnoremap <c-w>o <c-w>w              " 模仿tmux
+nnoremap <c-w><c-o> <c-w>w
+
+" ------  Move  ------
+nnoremap j gj
+nnoremap k gk
 
 
 
@@ -58,3 +74,7 @@ set noimdisable
 " 加速
 nmap j <Plug>(accelerated_jk_gj)
 nmap k <Plug>(accelerated_jk_gk)
+
+nnoremap gf :e <cfile><cr>
+
+inoremap <C-e> <End>

@@ -14,10 +14,6 @@ set lazyredraw " 在执行宏的时候禁止重绘屏幕
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
-" ------  Fold  ------
-autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
-nnoremap <space> za
-vnoremap <space> zf
 
 " ------  Indent  -----
 set autoindent
@@ -35,28 +31,16 @@ set hlsearch
 set ignorecase " 忽略大小写
 set smartcase
 
-" ------  Buffer Navigation ------
-nnoremap <c-c> <c-w>j<c-w><c-c>     " 控制另一个窗口的关闭
-
-" nnoremap <c-j> <c-w>o<c-e><c-w>o    " 控制另一个窗口的滚动
-" nnoremap <c-k> <c-w>o<c-y><c-w>o
-
-nnoremap <c-w>o <c-w>w              " 模仿tmux
-nnoremap <c-w><c-o> <c-w>w
 
 " ------  CMD  ------
 set wildmenu
 set wildmode=full
 
-" ------  Move  ------
-nnoremap j gj
-nnoremap k gk
-
 " -------  Unclassified  ------
 " inoremap jk <esc>
 set autochdir
 set clipboard=unnamed
-let autosave=5      " 5秒自动保存一次
+" let autosave=5      " 5秒自动保存一次
 set splitright      " 设定新窗口位置
 set splitbelow
 set history=500

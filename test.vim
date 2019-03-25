@@ -1,21 +1,33 @@
 " 测试中的插件 {{{
 
-Plug 'ianva/vim-youdao-translater'
+Plug 'vim-scripts/autopreview'
+
+Plug 'vim-scripts/CmdlineComplete'
+
+Plug 'vim-scripts/STL-improved'
+
+Plug 'pboettch/vim-cmake-syntax'
+
+Plug 'vhdirk/vim-cmake'
+Plug 'apalmer1377/factorus'
+
+
+Plug 'vim-scripts/taglist.vim'
+
+Plug '907th/vim-auto-save'
+
+
+" Plug 'ianva/vim-youdao-translater'
+Plug 'ludovicchabant/vim-gutentags'
+
 
 Plug 'liuchengxu/vim-which-key'
 
 " language-packs
-Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 
 Plug 'iandingx/leetcode.vim'
 " ~/.vim/vimrc/config/leetcode.vim
-
-Plug 'LucHermitte/lh-vim-lib'
-Plug 'LucHermitte/lh-tags'
-Plug 'LucHermitte/lh-dev'
-Plug 'LucHermitte/lh-style'
-Plug 'LucHermitte/lh-brackets'
-Plug 'LucHermitte/vim-refactor'
 
 Plug 'rhysd/accelerated-jk'
 
@@ -62,7 +74,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'alvan/vim-closetag'
 
 " 快速交换函数参数位置
-" Plug 'machakann/vim-swap'
+Plug 'machakann/vim-swap'
 
 " 快速排序
 Plug 'christoomey/vim-sort-motion'

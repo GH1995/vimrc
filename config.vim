@@ -26,5 +26,7 @@ source ~/.vim/vimrc/config/leaderF.vim
 source ~/.vim/vimrc/config/leetcode.vim
 source ~/.vim/vimrc/config/vim-cpp-enhanced-highlight.vim
 source ~/.vim/vimrc/config/vim-easymotion.vim
-source ~/.vim/vimrc/config/vim-which-key.vim
+" source ~/.vim/vimrc/config/vim-which-key.vim
 source ~/.vim/vimrc/config/vim-youdao-translater.vim
+source ~/.vim/vimrc/config/vim-autosave.vim
+source ~/.vim/vimrc/config/vim-sneak.vim

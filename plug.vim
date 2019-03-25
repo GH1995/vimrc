@@ -165,6 +165,10 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 
 " Graphviz
 Plug 'wannesm/wmgraphviz.vim'
+
+" 文件内查找
+Plug 'justinmk/vim-sneak'
+" ~/.vim/vimrc/config/vim-sneak.vim
 " }}}
 
 
