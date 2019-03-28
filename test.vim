@@ -1,6 +1,8 @@
 " 测试中的插件 {{{
 
+Plug 'kshenoy/vim-signature'
 Plug 'vim-scripts/autopreview'
+
 
 Plug 'vim-scripts/CmdlineComplete'
 
@@ -12,13 +14,14 @@ Plug 'vhdirk/vim-cmake'
 Plug 'apalmer1377/factorus'
 
 
-Plug 'vim-scripts/taglist.vim'
+" Plug 'vim-scripts/taglist.vim'
 
 Plug '907th/vim-auto-save'
 
 
 " Plug 'ianva/vim-youdao-translater'
 Plug 'ludovicchabant/vim-gutentags'
+" ~/.vim/vimrc/config/vim-gutentags.vim
 
 
 Plug 'liuchengxu/vim-which-key'

@@ -84,6 +84,12 @@ g:ctrlp_custom_ignore	config/ctrlp.vim	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\
 g:ctrlp_custom_ignore	config/ctrlp.vim	/^let g:ctrlp_custom_ignore = {$/;"	v
 g:ctrlp_funky_matchtype	config/ctrlp-funky.vim	/^let g:ctrlp_funky_matchtype = 'path'$/;"	v
 g:ctrlp_working_path_mode	config/ctrlp.vim	/^let g:ctrlp_working_path_mode = 'ra'$/;"	v
+g:gutentags_cache_dir	config/vim-gutentags.vim	/^let g:gutentags_cache_dir = s:vim_tags$/;"	v
+g:gutentags_ctags_extra_args	config/vim-gutentags.vim	/^let g:gutentags_ctags_extra_args += ['--c++-kinds=+pxI']$/;"	v
+g:gutentags_ctags_extra_args	config/vim-gutentags.vim	/^let g:gutentags_ctags_extra_args += ['--c-kinds=+px']$/;"	v
+g:gutentags_ctags_extra_args	config/vim-gutentags.vim	/^let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']$/;"	v
+g:gutentags_ctags_tagfile	config/vim-gutentags.vim	/^let g:gutentags_ctags_tagfile = '.tags'$/;"	v
+g:gutentags_project_root	config/vim-gutentags.vim	/^let g:gutentags_project_root = ['.root', '.svn', '.git', '.project']$/;"	v
 g:indentLine_char	config/indentLine.vim	/^let g:indentLine_char='┆'$/;"	v
 g:indentLine_enabled	config/indentLine.vim	/^let g:indentLine_enabled = 1$/;"	v
 g:indent_guides_guide_size	config/vim-indent-guides.vim	/^let g:indent_guides_guide_size=1$/;"	v
@@ -151,5 +157,6 @@ k	config/map.vim	/^nmap k <Plug>(accelerated_jk_gk)$/;"	m
 k	config/map.vim	/^nnoremap k gk$/;"	m
 mapleader	lab.vim	/^let mapleader='-'$/;"	v
 markdown	config/vim-flavored-Markdown.vim	/^augroup markdown$/;"	a
+s:vim_tags	config/vim-gutentags.vim	/^let s:vim_tags = expand('~\/.cache\/tags')$/;"	v
 t	config/vim-sneak.vim	/^map t <Plug>Sneak_t$/;"	m
 v	config/vim-expand-region.vim	/^vmap v <Plug>(expand_region_expand)$/;"	m
