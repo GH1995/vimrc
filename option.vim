@@ -9,6 +9,7 @@ syntax enable
 set number
 set wrap
 set lazyredraw " 在执行宏的时候禁止重绘屏幕
+set regexpengine=1
 
 " ------  Charset Init  ------
 set encoding=utf-8

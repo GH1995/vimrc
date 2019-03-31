@@ -32,5 +32,5 @@ au GuiEnter * hi ErrorMsg NONE
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 
-set conceallevel=0
+" set conceallevel=0
 

@@ -1,5 +1,7 @@
 " 测试中的插件 {{{
 
+Plug 'gilligan/vim-lldb'
+
 Plug 'kshenoy/vim-signature'
 Plug 'vim-scripts/autopreview'
 
