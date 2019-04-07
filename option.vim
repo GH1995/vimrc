@@ -86,3 +86,9 @@ colorscheme space-vim-dark
 hi Normal     ctermbg=NONE guibg=NONE
 hi LineNr     ctermbg=NONE guibg=NONE
 hi SignColumn ctermbg=NONE guibg=NONE
+
+
+" 禁止响铃
+set noeb vb t_vb=
+
+
