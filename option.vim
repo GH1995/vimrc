@@ -18,7 +18,7 @@ set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 
 " ------  Indent  -----
 set autoindent
-set smartindent
+" set smartindent
 set shiftwidth=4
 set smarttab
 set tabstop=4

@@ -1,5 +1,7 @@
 " 测试中的插件 {{{
 
+Plug 'tpope/vim-endwise'
+
 Plug 'gilligan/vim-lldb'
 
 Plug 'kshenoy/vim-signature'
