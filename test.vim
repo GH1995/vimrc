@@ -1,5 +1,10 @@
 " 测试中的插件 {{{
 
+Plug 'sillybun/vim-repl', {'do': './install.sh'}
+Plug 'sillybun/vim-async', {'do': './install.sh'}
+Plug 'sillybun/zytutil'
+" ~/.vim/vimrc/config/vim-repl.vim
+
 Plug 'tpope/vim-endwise'
 
 Plug 'gilligan/vim-lldb'

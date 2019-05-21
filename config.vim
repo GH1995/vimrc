@@ -31,3 +31,4 @@ source ~/.vim/vimrc/config/vim-youdao-translater.vim
 source ~/.vim/vimrc/config/vim-autosave.vim
 source ~/.vim/vimrc/config/vim-sneak.vim
 source ~/.vim/vimrc/config/vim-gutentags.vim
+source ~/.vim/vimrc/config/vim-repl.vim
