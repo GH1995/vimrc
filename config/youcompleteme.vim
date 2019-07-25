@@ -2,6 +2,9 @@
 nnoremap <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>d  :YcmCompleter GetDoc<CR>
 
+let g:ycm_seed_identifiers_with_syntax = 1
+
+
 " 评论中也应用补全
 let g:ycm_complete_in_comments = 1
 
@@ -35,3 +38,5 @@ let g:ycm_enable_diagnostic_signs = 0
 
 " highlight YcmErrorSection None
 " highlight YcmWarningSection None
+
+let g:ycm_path_to_python_interpreter='/home/hxs/miniconda3/bin/python'

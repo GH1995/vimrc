@@ -15,10 +15,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-" CtrlP
-" Plug 'ctrlpvim/ctrlp.vim'
-" ~/.vim/vimrc/config/ctrlp.vim
-
 " surround
 Plug 'tpope/vim-surround'
 " ~/.vim/vimrc/vim-surround.vim
@@ -122,8 +118,8 @@ Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer'}
 " ~/.vim/vimrc/config/youcompleteme.vim
 
 " 格式化C++
-Plug 'kana/vim-operator-user'
-Plug 'rhysd/vim-clang-format'
+" Plug 'kana/vim-operator-user'
+" Plug 'rhysd/vim-clang-format'
 " :ClangFormat
 
 " }}}
@@ -165,6 +161,10 @@ Plug 'vim-scripts/DoxygenToolkit.vim'
 
 " Graphviz
 Plug 'wannesm/wmgraphviz.vim'
+
+" 文件内查找
+Plug 'justinmk/vim-sneak'
+" ~/.vim/vimrc/config/vim-sneak.vim
 " }}}
 
 
