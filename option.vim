@@ -92,3 +92,5 @@ hi SignColumn ctermbg=NONE guibg=NONE
 set noeb vb t_vb=
 
 
+" 当前行位置
+set scrolloff=9
