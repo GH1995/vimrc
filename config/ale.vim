@@ -4,8 +4,6 @@
 nnoremap <silent> [a <Plug>(ale_previous_wrap)
 nnoremap <silent> ]a <Plug>(ale_next_wrap)
 
-nnoremap <leader>ale :ALEToggle<cr>
-
 highlight clear ALEErrorSign
 highlight clear ALEWarningSign
 let g:ale_set_highlights = 0

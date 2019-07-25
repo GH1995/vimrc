@@ -24,13 +24,13 @@
       * [modify data](#modify-data)
       * [quick run](#quick-run)
 
-@log
+          @log
 - vundle -> plug, support threads
 - someplugins is outtime
 - add some plugins for html/css/js without fixed
 - modify the base config
 
-You have to know **nothing**
+    You have to know **nothing**
 
 ## How to use vim
 
@@ -44,9 +44,9 @@ You have to know **nothing**
 - [engish tutorial](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor) or `vimtutor` in shell
 - [中文教程](https://coolshell.cn/articles/5426.html)
 
-My config is used in Linux(vim version>=8.0) which is friendful with Python, $\LaTeX$ and C++.
+    My config is used in Linux(vim version>=8.0) which is friendful with Python, $\LaTeX$ and C++.
 
-----
+    ----
 
 ## install and uninstall
 
@@ -55,7 +55,7 @@ My config is used in Linux(vim version>=8.0) which is friendful with Python, $\L
 ```shell
 git clone https://github.com/GH1995/vimrc.git ~/.vim/vimrc
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ln ~/.vim/vimrc/vimrc_real ~/.vimrc
 
@@ -167,24 +167,24 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 |----:|:----------------------------|
 | `v` | increase selection          |
 | `V` | decrease  selection         |
-| `+` | expand the visual selection |
-| `-` | shrink the visual selection |
 
 ### ale: Asynchronous Lint Engine
 
-|           key | use                  |
-|--------------:|:---------------------|
-|          `z[` | go to previous error |
-|          `z]` | go to next error     |
-| `<leader>ale` | ALE toggle           |
+| key              | use                  |
+|-----------------:|:---------------------|
+| `[a`             | go to previous error |
+| `]a`             | go to next error     |
+| `:ALEToggle<cr>` | ALE toggle           |
 
 
-### comments
+### nerd commenter
 
 |          key | use             |
 |-------------:|:----------------|
 | `<leader>cc` | add comments    |
 | `<leader>cu` | delete comments |
+
+In `visual mode`, it will comment/uncomment a block.
 
 ### LaTeX
 
@@ -209,8 +209,6 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 |-------------:|:-------|
 | `<leader>af` | format |
 
-special, you can use `:ClangFormat` to format C++.
-
 ### undotree
 
 |          key | use            |
@@ -219,9 +217,9 @@ special, you can use `:ClangFormat` to format C++.
 
 ### easy align
 
-|          key | use |
-|-------------:|:----|
-| `<leader>ea` |     |
+| key          | use    |
+|-------------:|:-------|
+| `<leader>ea` | `todo` |
 
 ### modify data
 
@@ -235,4 +233,60 @@ special, you can use `:ClangFormat` to format C++.
 |          key | use       |
 |-------------:|:----------|
 | `<leader>qr` | quick run |
+
+## date increase/decrease
+
+| key     | use      |
+|--------:|:---------|
+| `<c-a>` | increase |
+| `<c-x>` | decrease |
+
+## toggle mouse
+
+`<F12>`
+
+## leaderF
+`c-p`
+
+## Graphviz
+
+todo
+
+## sneak
+
+| key     | use    |
+|--------:|:-------|
+| `s<cr>` | search |
+
+replace `f` with Sneak
+
+
+## repl
+
+
+| key                        | use                     |
+|---------------------------:|:------------------------|
+| `:REPLToggle`              | open/close REPL         |
+| `<leader>w`                | send code to REPL       |
+| `visual model` `<leader>w` | send code block to REPL |
+
+## signature
+
+| key          | use                                    |
+|-------------:|:---------------------------------------|
+| `m[a-zA-Z]`  | place a marker                         |
+| `'[a-zA-Z]'` | jump to marker                         |
+| `m/`         | open location list and display markers |
+| `m<space>`   | delete all markers                     |
+
+## Factorus
+
+| key               | use |
+|------------------:|:----|
+| `:FRenameClass`   | -   |
+| `:FRenameField`   | -   |
+| `:FRenameMethod`  | -   |
+| `:FRenameType`    | -   |
+| `:FExtractMethod` | -   |
+
 

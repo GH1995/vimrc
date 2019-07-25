@@ -7,10 +7,9 @@ Plug 'sillybun/zytutil'
 
 Plug 'tpope/vim-endwise'
 
-Plug 'gilligan/vim-lldb'
-
 Plug 'kshenoy/vim-signature'
 Plug 'vim-scripts/autopreview'
+let g:AutoPreview_enabled = 1
 
 
 Plug 'vim-scripts/CmdlineComplete'
@@ -33,7 +32,7 @@ Plug 'ludovicchabant/vim-gutentags'
 " ~/.vim/vimrc/config/vim-gutentags.vim
 
 
-Plug 'liuchengxu/vim-which-key'
+" Plug 'liuchengxu/vim-which-key'
 
 " language-packs
 " Plug 'sheerun/vim-polyglot'
