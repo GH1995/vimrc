@@ -39,4 +39,5 @@ let g:ycm_enable_diagnostic_signs = 0
 " highlight YcmErrorSection None
 " highlight YcmWarningSection None
 
-let g:ycm_path_to_python_interpreter='/home/hxs/miniconda3/bin/python'
+" let g:ycm_path_to_python_interpreter='/home/hxs/miniconda3/bin/python'
+let g:ycm_path_to_python_interpreter=$CONDA_PYTHON_EXE

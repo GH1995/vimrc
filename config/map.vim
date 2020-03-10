@@ -4,7 +4,7 @@ nnoremap <leader>ev :edit $MYVIMRC<cr>
 
 
 " 保存的快捷键
-nnoremap <leader>= :wa<cr>
+nnoremap -= :wa<cr>
 " nnoremap zz zz:wa<cr>
 
 
@@ -20,7 +20,7 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 
 
 " vimrc indent 折叠
-autocmd BufRead vundle.vim setlocal foldmethod=marker
+" autocmd BufRead vundle.vim setlocal foldmethod=marker
 
 " ------  Fold  ------
 autocmd BufNewFile,BufRead *.c,*.cpp setlocal foldmethod=syntax
@@ -37,8 +37,8 @@ nnoremap <c-w>o <c-w>w              " 模仿tmux
 nnoremap <c-w><c-o> <c-w>w
 
 " ------  Move  ------
-nnoremap j gj
-nnoremap k gk
+" nnoremap j gj
+" nnoremap k gk
 
 
 

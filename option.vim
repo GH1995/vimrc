@@ -91,6 +91,5 @@ hi SignColumn ctermbg=NONE guibg=NONE
 " 禁止响铃
 set noeb vb t_vb=
 
-
 " 当前行位置
 set scrolloff=9
