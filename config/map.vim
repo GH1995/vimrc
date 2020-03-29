@@ -2,6 +2,8 @@
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>ev :edit $MYVIMRC<cr>
 
+" 展开引号
+nnoremap <leader>sb :set conceallevel=0<cr>
 
 " 保存的快捷键
 nnoremap -= :wa<cr>
