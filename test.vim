@@ -146,3 +146,9 @@ Plug 'vim-scripts/matchit.zip'
 
 " post install (yarn install | npm install)
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+
+Plug 'jceb/vim-orgmode'
+
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-capslock'
+Plug 'tpope/vim-obsession'
