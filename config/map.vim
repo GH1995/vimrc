@@ -65,7 +65,7 @@ nnoremap <leader>af :Autoformat<cr>
 "----------------- Setting -------------------"
 
 " fileformat
-nnoremap <leader>ff :set fileformat=unix<cr>
+" nnoremap <leader>ff :set fileformat=unix<cr>
 
 " fold up
 nnoremap <leader>sf :set foldlevel=99<cr>
@@ -74,8 +74,8 @@ nnoremap <leader>sf :set foldlevel=99<cr>
 set noimdisable
 
 " 加速
-nmap j <Plug>(accelerated_jk_gj)
-nmap k <Plug>(accelerated_jk_gk)
+" nmap j <Plug>(accelerated_jk_gj)
+" nmap k <Plug>(accelerated_jk_gk)
 
 nnoremap gf :e <cfile><cr>
 

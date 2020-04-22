@@ -5,14 +5,14 @@ Plug 'sillybun/vim-async', {'do': './install.sh'}
 Plug 'sillybun/zytutil'
 " ~/.vim/vimrc/config/vim-repl.vim
 
-Plug 'tpope/vim-endwise'
+" Plug 'tpope/vim-endwise'
 
 " Plug 'kshenoy/vim-signature'
 " Plug 'vim-scripts/autopreview'
 " let g:AutoPreview_enabled = 1
 
 
-Plug 'vim-scripts/CmdlineComplete'
+" Plug 'vim-scripts/CmdlineComplete'
 
 " Plug 'vim-scripts/STL-improved'
 
@@ -40,7 +40,7 @@ Plug 'vim-scripts/CmdlineComplete'
 " Plug 'iandingx/leetcode.vim'
 " ~/.vim/vimrc/config/leetcode.vim
 
-Plug 'rhysd/accelerated-jk'
+" Plug 'rhysd/accelerated-jk'
 
 " Plug 'gauteh/vim-cppman'
 
@@ -54,16 +54,16 @@ Plug 'mhinz/vim-startify'
 " Plug 'terryma/vim-smooth-scroll'
 
 "
-Plug 'Shougo/unite.vim'
+" Plug 'Shougo/unite.vim'
 
 " Plug 'skywind3000/asyncrun.vim'
 
 " 提供快速grep功能
-Plug 'rking/ag.vim'
+" Plug 'rking/ag.vim'
 " ~/.vim/vimrc/config/ag.vim
 
 " 模糊查找的功能
-Plug 'ggVGc/vim-fuzzysearch'
+" Plug 'ggVGc/vim-fuzzysearch'
 " ~/.vim/vimrc/config/vim-fuzzysearch.vim
 
 " 高亮显示文档中颜色代码
@@ -145,17 +145,33 @@ Plug 'vim-scripts/matchit.zip'
 " }}}
 
 " post install (yarn install | npm install)
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'prettier/vim-prettier', { 'do': 'cnpm install' }
 
-Plug 'jceb/vim-orgmode'
+" Plug 'jceb/vim-orgmode'
 
-Plug 'tpope/vim-unimpaired'
+" Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-capslock'
-Plug 'tpope/vim-obsession'
+" Plug 'tpope/vim-obsession'
 
 Plug 'yuttie/comfortable-motion.vim'
 " ~/.vim/vimrc/config/confortable-motion.vim
 
-Plug 'kien/tabman.vim'
+" Plug 'kien/tabman.vim'
 
-Plug 'ap/vim-buftabline'
+" Plug 'ap/vim-buftabline'
+
+" 去除多余的空格 :Strip
+Plug 'ntpeters/vim-better-whitespace'
+
+" Plug 'heavenshell/vim-pydocstring'
+" ~/.vim/vimrc/config/vim-pydocstring.vim
+
+Plug 'zefei/vim-wintabs'
+Plug 'zefei/vim-wintabs-powerline'
+" ~/.vim/vimrc/config/vim-wintabs.vim
+
+Plug 'majutsushi/tagbar'
+
+Plug 'kshenoy/vim-signature'
+
+" Plug 'cabellwg/exit-vim'

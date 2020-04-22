@@ -26,19 +26,12 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Plug 'vimcn/NERD_commenter.cnx'
 
 " 中文文档
+Plug 'yianwillis/vimcdoc'
 " Plug 'vimcn/vimcdoc'
 
 
 Plug 'dhruvasagar/vim-table-mode'
 " ~/.vim/vimrc/config/vim-table-mode.vim
-
-" }}}
-
-" LaTeX {{{
-
-
-" }}}
-
 
 " C++ {{{
 

@@ -5,7 +5,6 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 " ~/.vim/vimrc/vim-surround.vim
 
-
 " vim-repeat
 Plug 'tpope/vim-repeat'
 " ~/.vim/vimrc/vim-repeat.vim

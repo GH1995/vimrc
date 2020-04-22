@@ -39,5 +39,5 @@ let g:ycm_enable_diagnostic_signs = 0
 " highlight YcmErrorSection None
 " highlight YcmWarningSection None
 
-let g:ycm_path_to_python_interpreter='/home/guanhua/opt/miniconda3/bin/python3'
+" let g:ycm_path_to_python_interpreter='/home/guanhua/opt/miniconda3/bin/python3'
 " let g:ycm_path_to_python_interpreter='/usr/bin/python3'

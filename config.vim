@@ -33,3 +33,5 @@ source ~/.vim/vimrc/config/vim-sneak.vim
 source ~/.vim/vimrc/config/vim-gutentags.vim
 source ~/.vim/vimrc/config/vim-repl.vim
 source ~/.vim/vimrc/config/confortable-motion.vim
+source ~/.vim/vimrc/config/vim-pydocstring.vim
+source ~/.vim/vimrc/config/vim-wintabs.vim
