@@ -1,30 +1,6 @@
 # DON'T PANIC
 
-* [DON'T PANIC](#dont-panic)
-   * [How to use vim](#how-to-use-vim)
-      * [you must be alive](#you-must-be-alive)
-      * [vim's tutorial](#vims-tutorial)
-   * [install and uninstall](#install-and-uninstall)
-   * [How to use the config](#how-to-use-the-config)
-      * [vimrc](#vimrc)
-      * [terminal](#terminal)
-      * [other config](#other-config)
-      * [YouCompleteMe](#youcompleteme)
-      * [ultisnips](#ultisnips)
-      * [nerdtree](#nerdtree)
-      * [surround](#surround)
-      * [vim expand region](#vim-expand-region)
-      * [ale: Asynchronous Lint Engine](#ale-asynchronous-lint-engine)
-      * [comments](#comments)
-      * [LaTeX](#latex)
-      * [Markdown](#markdown)
-      * [autoformat](#autoformat)
-      * [undotree](#undotree)
-      * [easy align](#easy-align)
-      * [modify data](#modify-data)
-      * [quick run](#quick-run)
-
-          @log
+@log
 - vundle -> plug, support threads
 - someplugins is outtime
 - add some plugins for html/css/js without fixed
@@ -80,10 +56,6 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 
 `:term`
 
-|          key | use               |
-|-------------:|:------------------|
-| `<leader>ev` | edit `~/.vimrc`   |
-| `<leader>sv` | source `~/.vimrc` |
 
 ### other config
 
@@ -154,13 +126,6 @@ My leader is `-`, and you can modify it in `~/.vim/vimrc/lab.vim`.
 | `ySs` | add a surrounding to the whole line, place it on a new line + indent it   |
 | `ySS` | same as ySs                                                               |
 
-**visual mode**
-
-|  key | use                                                                      |
-|-----:|:-------------------------------------------------------------------------|
-|  `S` | in visual mode, add a surrounding                                        |
-| `gS` | in visual mode, add a surrounding but place text on new line + indent it |
-
 ### vim expand region
 
 | key | use                         |
@@ -195,13 +160,6 @@ In `visual mode`, it will comment/uncomment a block.
 | `\lc` | clean       |
 | `\lm` | show keymap |
 
-### Markdown
-
-|          key | use                                |
-|-------------:|:-----------------------------------|
-| `<leader>tf` | format table (cursor on the table) |
-|       `:Toc` | open the toc                       |
-
 
 ### autoformat
 
@@ -214,12 +172,6 @@ In `visual mode`, it will comment/uncomment a block.
 |          key | use            |
 |-------------:|:---------------|
 | `<leader>ut` | UndoTreetoggle |
-
-### easy align
-
-| key          | use    |
-|-------------:|:-------|
-| `<leader>ea` | `todo` |
 
 ### modify data
 
@@ -246,11 +198,7 @@ In `visual mode`, it will comment/uncomment a block.
 `<F12>`
 
 ## leaderF
-`c-p`
-
-## Graphviz
-
-todo
+`--f`
 
 ## sneak
 
@@ -259,7 +207,6 @@ todo
 | `s<cr>` | search |
 
 replace `f` with Sneak
-
 
 ## repl
 
@@ -288,5 +235,4 @@ replace `f` with Sneak
 | `:FRenameMethod`  | -   |
 | `:FRenameType`    | -   |
 | `:FExtractMethod` | -   |
-
 
