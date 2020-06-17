@@ -2,7 +2,6 @@ source ~/.vim/vimrc/config/ale.vim
 source ~/.vim/vimrc/config/closetag.vim
 source ~/.vim/vimrc/config/ctrlp.vim
 source ~/.vim/vimrc/config/nerdcommenter.vim
-source ~/.vim/vimrc/config/SimpylFold.vim
 source ~/.vim/vimrc/config/tagbar.vim
 source ~/.vim/vimrc/config/vim-airline.vim
 source ~/.vim/vimrc/config/vim-autopep8.vim

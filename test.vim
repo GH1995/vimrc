@@ -1,8 +1,8 @@
 " 测试中的插件 {{{
 
-Plug 'sillybun/vim-repl', {'do': './install.sh'}
-Plug 'sillybun/vim-async', {'do': './install.sh'}
-Plug 'sillybun/zytutil'
+Plug 'sillybun/vim-repl'
+" Plug 'sillybun/vim-async', {'do': './install.sh'}
+" Plug 'sillybun/zytutil'
 " ~/.vim/vimrc/config/vim-repl.vim
 
 " Plug 'tpope/vim-endwise'
@@ -166,8 +166,8 @@ Plug 'ntpeters/vim-better-whitespace'
 " Plug 'heavenshell/vim-pydocstring'
 " ~/.vim/vimrc/config/vim-pydocstring.vim
 
-Plug 'zefei/vim-wintabs'
-Plug 'zefei/vim-wintabs-powerline'
+" Plug 'zefei/vim-wintabs'
+" Plug 'zefei/vim-wintabs-powerline'
 " ~/.vim/vimrc/config/vim-wintabs.vim
 
 Plug 'majutsushi/tagbar'
@@ -175,3 +175,7 @@ Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
 
 " Plug 'cabellwg/exit-vim'
+Plug 'nvie/vim-togglemouse'
+
+" Plug 'jupyter-vim/jupyter-vim'
+
