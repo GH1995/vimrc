@@ -156,26 +156,11 @@ Plug 'tpope/vim-capslock'
 Plug 'yuttie/comfortable-motion.vim'
 " ~/.vim/vimrc/config/confortable-motion.vim
 
-" Plug 'kien/tabman.vim'
-
-" Plug 'ap/vim-buftabline'
-
 " 去除多余的空格 :Strip
 Plug 'ntpeters/vim-better-whitespace'
-
-" Plug 'heavenshell/vim-pydocstring'
-" ~/.vim/vimrc/config/vim-pydocstring.vim
-
-" Plug 'zefei/vim-wintabs'
-" Plug 'zefei/vim-wintabs-powerline'
-" ~/.vim/vimrc/config/vim-wintabs.vim
 
 Plug 'majutsushi/tagbar'
 
 Plug 'kshenoy/vim-signature'
 
-" Plug 'cabellwg/exit-vim'
 Plug 'nvie/vim-togglemouse'
-
-" Plug 'jupyter-vim/jupyter-vim'
-
