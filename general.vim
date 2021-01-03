@@ -49,26 +49,3 @@ Plug 'Yggdroot/LeaderF', { 'do': './install.sh'  }
 
 " / 取消高亮
 Plug 'junegunn/vim-slash'
-
-" 多光标操作
-" Plug 'terryma/vim-multiple-cursors'
-" ~/.vim/vimrc/config/vim-multiple-cursors.vim
-
-" markdown
-" Plug 'godlygeek/tabular'
-" Plug 'plasticboy/vim-markdown'
-" ~/.vim/vimrc/config/vim-markdown.vim
-
-" 画图
-" Plug 'vim-scripts/winmanager'
-
-" 快速的写注释
-" Plug 'vim-scripts/DoxygenToolkit.vim'
-" ~/.vim/vimrc/config/DoxygenToolkit.vim
-
-" 高亮空格
-" Plug 'ntpeters/vim-better-whitespace'
-
-" Graphviz
-" Plug 'wannesm/wmgraphviz.vim'
-

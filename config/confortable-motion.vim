@@ -8,3 +8,6 @@ noremap <silent> <ScrollWheelUp>   :call comfortable_motion#flick(-40)<CR>
 
 let g:comfortable_motion_friction = 200.0
 let g:comfortable_motion_air_drag = 0.0
+
+let g:comfortable_motion_scroll_down_key = "j"
+let g:comfortable_motion_scroll_up_key = "k"
