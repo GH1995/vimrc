@@ -164,3 +164,5 @@ Plug 'majutsushi/tagbar'
 Plug 'kshenoy/vim-signature'
 
 Plug 'nvie/vim-togglemouse'
+
+Plug 'editorconfig/editorconfig-vim'
