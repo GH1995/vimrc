@@ -71,6 +71,7 @@ Plug 'honza/vim-snippets'
 " 配色
 " Plug 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
-" Plug 'liuchengxu/space-vim-dark'
-Plug 'liuchengxu/space-vim-theme'
+Plug 'liuchengxu/space-vim-dark'
+
+" Plug 'liuchengxu/space-vim-theme'
 Plug 'miyakogi/conoline.vim'
