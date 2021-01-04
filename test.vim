@@ -179,5 +179,3 @@ Plug 'nvie/vim-togglemouse'
 
 " Plug 'jupyter-vim/jupyter-vim'
 
-Plug 'iamcco/mathjax-support-for-mkdp'
-Plug 'iamcco/markdown-preview.vim'
