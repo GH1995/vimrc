@@ -166,8 +166,8 @@ Plug 'ntpeters/vim-better-whitespace'
 " Plug 'heavenshell/vim-pydocstring'
 " ~/.vim/vimrc/config/vim-pydocstring.vim
 
-Plug 'zefei/vim-wintabs'
-Plug 'zefei/vim-wintabs-powerline'
+" Plug 'zefei/vim-wintabs'
+" Plug 'zefei/vim-wintabs-powerline'
 " ~/.vim/vimrc/config/vim-wintabs.vim
 
 Plug 'majutsushi/tagbar'
@@ -179,3 +179,5 @@ Plug 'nvie/vim-togglemouse'
 
 " Plug 'jupyter-vim/jupyter-vim'
 
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'

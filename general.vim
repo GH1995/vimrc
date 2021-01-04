@@ -10,7 +10,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " ~/.vim/vimrc/config/tagbar.vim
 
 " 快速对齐
-" Plug 'junegunn/vim-easy-align'
+Plug 'junegunn/vim-easy-align'
 " ~/.vim/vimrc/config/vim-easy-align.vim
 
 " mouse

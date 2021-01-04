@@ -72,3 +72,5 @@ Plug 'honza/vim-snippets'
 " Plug 'flazz/vim-colorschemes'
 " ~/.vim/vimrc/config/vim-colorschemes.vim
 Plug 'liuchengxu/space-vim-dark'
+
+Plug 'elzr/vim-json'
