@@ -18,7 +18,6 @@ source ~/.vim/vimrc/config/vim-markdown.vim
 source ~/.vim/vimrc/config/vim-table-mode.vim
 source ~/.vim/vimrc/config/nerdtree.vim
 source ~/.vim/vimrc/config/vim-easy-align.vim
-source ~/.vim/vimrc/config/vim-colorschemes.vim
 source ~/.vim/vimrc/config/vim-repeat.vim
 source ~/.vim/vimrc/config/vim-startify.vim
 source ~/.vim/vimrc/config/leaderF.vim
