@@ -44,7 +44,7 @@ Plug 'dhruvasagar/vim-table-mode'
 
 " {{{
 
-Plug 'Yggdroot/LeaderF', { 'do': './install.sh'  }
+Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 " ~/.vim/vimrc/config/leaderF.vim
 
 " / 取消高亮
