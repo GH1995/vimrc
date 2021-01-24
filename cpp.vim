@@ -1,3 +1,3 @@
 " YouCompleteMe
-Plug 'ycm-core/YouCompleteMe', {'do': './install.py --clang-completer --ts-completer'}
+Plug 'ycm-core/YouCompleteMe', {'do': './install.py --clangd-completer --ts-completer'}
 " ~/.vim/vimrc/config/youcompleteme.vim
