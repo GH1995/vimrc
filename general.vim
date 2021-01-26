@@ -51,4 +51,4 @@ Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 Plug 'junegunn/vim-slash'
 
 " git
-Plug "tpope/vim-fugitive"
+Plug 'tpope/vim-fugitive'
