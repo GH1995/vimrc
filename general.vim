@@ -49,3 +49,6 @@ Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 
 " / 取消高亮
 Plug 'junegunn/vim-slash'
+
+" git
+Plug "tpope/vim-fugitive"
