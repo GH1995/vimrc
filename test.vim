@@ -166,3 +166,5 @@ Plug 'kshenoy/vim-signature'
 Plug 'nvie/vim-togglemouse'
 
 Plug 'editorconfig/editorconfig-vim'
+
+Plug 'eugen0329/vim-esearch'
