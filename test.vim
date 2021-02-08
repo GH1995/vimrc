@@ -170,3 +170,4 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'eugen0329/vim-esearch'
 
 Plug 'ryanoasis/vim-devicons'
+Plug 'chrisbra/vim-diff-enhanced'
