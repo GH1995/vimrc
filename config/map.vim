@@ -11,7 +11,7 @@ nnoremap -= :wa<cr>
 
 
 " 解决搜索后的高亮问题
-nnoremap N :nohl<cr>
+" nnoremap N :nohl<cr>
 
 " 解决保存权限的问题
 command! W w !sudo tee % > /dev/null
@@ -39,8 +39,8 @@ nnoremap <c-w>o <c-w>w              " 模仿tmux
 nnoremap <c-w><c-o> <c-w>w
 
 " ------  Move  ------
-" nnoremap j gj
-" nnoremap k gk
+nnoremap j gj
+nnoremap k gk
 
 
 

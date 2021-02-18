@@ -28,7 +28,7 @@ Plug 'sillybun/vim-repl'
 
 
 " Plug 'ianva/vim-youdao-translater'
-" Plug 'ludovicchabant/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags'
 " ~/.vim/vimrc/config/vim-gutentags.vim
 
 
