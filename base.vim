@@ -75,3 +75,7 @@ Plug 'liuchengxu/space-vim-dark'
 
 " Plug 'liuchengxu/space-vim-theme'
 Plug 'miyakogi/conoline.vim'
+
+Plug 'ryanoasis/vim-devicons'
+
+Plug 'skywind3000/gutentags_plus'

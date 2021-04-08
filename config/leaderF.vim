@@ -13,7 +13,7 @@ else
         let s:configdir = expand('~/.config/nvim')
     endif
 endif
-let g:Lf_Ctags="uctags"
+let g:Lf_Ctags="ctags"
 let g:Lf_WorkingDirectoryMode = 'AF'
 let g:Lf_RootMarkers = ['.git', '.svn', '.hg', '.project', '.root']
 let g:Lf_UseVersionControlTool=1 "default value, can ignore

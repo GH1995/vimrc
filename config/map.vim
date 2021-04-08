@@ -42,9 +42,6 @@ nnoremap <c-w><c-o> <c-w>w
 nnoremap j gj
 nnoremap k gk
 
-
-
-
 "----------------- Other --------------------"
 
 " Toggle paste mode on and off
@@ -53,8 +50,6 @@ nnoremap <leader>pa :setlocal paste!<cr>
 " 翻译
 " pip install ici
 nnoremap <leader>fy :!echo --==<c-r><c-w>==-- ;ici <c-r><c-w><cr>
-
-
 
 "----------------- Plugin --------------------"
 " 格式化

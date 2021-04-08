@@ -1,6 +1,6 @@
 source ~/.vim/vimrc/config/ale.vim
 source ~/.vim/vimrc/config/closetag.vim
-source ~/.vim/vimrc/config/ctrlp.vim
+" source ~/.vim/vimrc/config/ctrlp.vim
 source ~/.vim/vimrc/config/nerdcommenter.vim
 source ~/.vim/vimrc/config/tagbar.vim
 source ~/.vim/vimrc/config/vim-airline.vim
@@ -28,7 +28,7 @@ source ~/.vim/vimrc/config/vim-easymotion.vim
 source ~/.vim/vimrc/config/vim-youdao-translater.vim
 source ~/.vim/vimrc/config/vim-autosave.vim
 source ~/.vim/vimrc/config/vim-sneak.vim
-source ~/.vim/vimrc/config/vim-gutentags.vim
+" source ~/.vim/vimrc/config/vim-gutentags.vim
 source ~/.vim/vimrc/config/vim-repl.vim
 source ~/.vim/vimrc/config/confortable-motion.vim
 source ~/.vim/vimrc/config/vim-pydocstring.vim
